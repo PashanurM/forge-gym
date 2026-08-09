@@ -1,0 +1,589 @@
+{
+  "meta": {
+    "titleDefault": "Forge Athletics | Premium Antrenman",
+    "titleTemplate": "{title} | Forge Athletics",
+    "description": "Daha sert antrenman yap. Dövülmüş ol."
+  },
+  "brand": {
+    "name": "Forge Athletics",
+    "shortName": "Forge",
+    "tagline": "Daha sert antrenman yap. Dövülmüş ol.",
+    "eyebrow": "Forge Athletics"
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "about": "Hakkımızda",
+    "gym": "Spor salonu",
+    "halls": "Salonlar",
+    "trainers": "Antrenörler",
+    "services": "Hizmetler",
+    "tools": "Araçlar",
+    "equipment": "Ekipman",
+    "pricing": "Fiyatlar",
+    "shop": "Mağaza",
+    "blog": "Blog",
+    "faq": "SSS",
+    "contact": "İletişim",
+    "join": "Katıl",
+    "joinForge": "Forge'a katıl",
+    "dashboard": "Panel",
+    "logout": "Çıkış",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "language": "Dil"
+  },
+  "footer": {
+    "explore": "Keşfet",
+    "visit": "Ziyaret",
+    "privacy": "Gizlilik",
+    "terms": "Şartlar",
+    "rights": "© {year} Forge Athletics. Niyetle antrenman yap."
+  },
+  "common": {
+    "backHome": "Ana sayfaya dön",
+    "loading": "Yükleniyor…",
+    "years": "yıl",
+    "capacity": "Kapasite {count}",
+    "exploreHall": "Salonu keşfet",
+    "getAccess": "Erişim al",
+    "askAboutThis": "Bunu sor",
+    "allTrainers": "Tüm antrenörler",
+    "viewPricing": "Fiyatlara bak",
+    "bookSession": "Seans ayırt",
+    "bookTrainer": "Antrenör ayırt",
+    "moreProducts": "Daha fazla ürün",
+    "inquireInClub": "Kulüpte sor",
+    "seeHalls": "Salonlara bak",
+    "trainingTools": "Antrenman araçları",
+    "viewEquipment": "Ekipmana bak",
+    "sessionTypes": "Seans türleri",
+    "features": "Özellikler",
+    "min": "dk",
+    "mostPopular": "En popüler",
+    "startPlan": "{name} planına başla",
+    "backBlog": "← Blog",
+    "backShop": "← Mağaza",
+    "hallLabel": "Salon 0{n}",
+    "hallsZallar": "Halls · Zallar"
+  },
+  "home": {
+    "heroHeadline": "Daha sert antrenman yap. Dövülmüş ol.",
+    "heroSub": "Güç, kondisyon ve toparlanma tek çatı altında—niyetle koçluk.",
+    "joinCta": "Forge'a katıl",
+    "bookCta": "Antrenör ayırt",
+    "coachesTitle": "Seni zorlayan koçlar",
+    "coachesSub": "Güç, HIIT, mobilite ve dövüş uzmanlarıyla seans ayırtın.",
+    "scrollFloors": "Katları kaydır",
+    "scrollFloorsSub": "Amaca özel salonlar kaydırdıkça dizilir — güç, bisiklet, toparlanma, dövüş.",
+    "programsTitle": "Programlar ve hizmetler",
+    "programsSub": "Güç sistemlerinden beslenme koçluğuna—yolunu seç.",
+    "pricingTitle": "Yoğunluğa uyan üyelik",
+    "pricingSub": "Açık salon, sınırsız dersler veya tam koçluk paketi—forge seviyeni seç.",
+    "blogTitle": "Salondan",
+    "blogSub": "Programlama notları, toparlanma ve antrenman kültürü.",
+    "testimonialsTitle": "Üyeler ne diyor",
+    "testimonialsSub": "Forge'da antrenman yapan sporculardan gerçek geri bildirim."
+  },
+  "about": {
+    "title": "Forge hakkında",
+    "subtitle": "Yapı, atmosfer ve sonuç isteyen sporcular için kurulmuş bir antrenman evi.",
+    "lead": "Emeğin görünür, ilerlemenin ölçülür olduğu bir alan dövdük.",
+    "body": "Forge Athletics bir güç kolektifi olarak başladı ve tam tesise dönüştü—güç salonu, bisiklet stüdyosu, dövüş alanı ve toparlanma süiti tek çatı altında. Yeni başlayanlardan yarışmacılara aynı standartla koçluk yapıyoruz: gel, akıllı antrenman yap, daha iyi ayrıl.",
+    "valuesTitle": "Ne için duruyoruz",
+    "valuesSub": "Salondaki her seansı şekillendiren üç ilke.",
+    "values": {
+      "v1Title": "Niyetli yoğunluk",
+      "v1Body": "Her seansın bir amacı var. Biriken ağır işi programlıyoruz.",
+      "v2Title": "Önce koçluk",
+      "v2Body": "Makineler formu düzeltmez. Koçlarımız düzeltir—salonda, her gün.",
+      "v3Title": "Yükselmek için toparlan",
+      "v3Body": "Toparlanmasız güç kısa ömürlüdür. Süit bunun için var."
+    }
+  },
+  "pages": {
+    "trainers": {
+      "title": "Antrenörler",
+      "subtitle": "Hedeflerinize uzmanlaşmış koçlarla bire bir seanslar ayırtın."
+    },
+    "halls": {
+      "title": "Salonlar",
+      "subtitle": "Zallar — güç, bisiklet, toparlanma ve dövüş için amaca özel odalar."
+    },
+    "services": {
+      "title": "Hizmetler",
+      "subtitle": "İğneyi hareket ettiren dersler, koçluk ve programlar."
+    },
+    "pricing": {
+      "title": "Fiyatlar",
+      "subtitle": "Ne kadar sert antrenman yapmak istediğinize uyan üyeliği seçin."
+    },
+    "shop": {
+      "title": "Mağaza",
+      "subtitle": "Antrenman günleri için giyim ve ekipman."
+    },
+    "tools": {
+      "title": "Araçlar",
+      "subtitle": "Antrenman ve beslenme planlaması için hesaplayıcılar.",
+      "needMachines": "Makinelere mi ihtiyacınız var?",
+      "needMachinesSub": "Her salonda rack'ler, bisikletler, torbalar ve toparlanma ekipmanına bakın."
+    },
+    "equipment": {
+      "title": "Ekipman",
+      "subtitle": "Her salonda makineler, rack'ler ve toparlanma araçları."
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Forge salonundan antrenman notları."
+    },
+    "faq": {
+      "title": "SSS",
+      "subtitle": "Üyelik, rezervasyon ve Forge ziyareti hakkında hızlı yanıtlar."
+    },
+    "contact": {
+      "title": "İletişim",
+      "subtitle": "Salonu gezin, üyelikleri sorun veya koçluk tavsiyesi alın.",
+      "visit": "Ziyaret",
+      "mapPlaceholder": "Harita yer tutucu · {city}"
+    },
+    "login": {
+      "title": "Giriş",
+      "subtitle": "Rezervasyonlarınıza ve panelinize erişin."
+    },
+    "register": {
+      "title": "Kayıt",
+      "subtitle": "Antrenör ayırtmak için üye hesabı oluşturun."
+    },
+    "reserve": {
+      "title": "{name} ayırt",
+      "subtitle": "Seans türü, tarih ve açık slot seçin."
+    },
+    "dashboard": {
+      "title": "Panel"
+    },
+    "notFound": {
+      "title": "Sayfa henüz dövülmedi",
+      "body": "Bu rota mevcut değil."
+    }
+  },
+  "auth": {
+    "email": "E-posta",
+    "password": "Şifre",
+    "name": "Ad",
+    "signIn": "Giriş yap",
+    "createAccount": "Hesap oluştur",
+    "noAccount": "Hesabınız yok mu?",
+    "register": "Kayıt ol",
+    "haveAccount": "Zaten hesabınız var mı?",
+    "demoAccounts": "Demo profiller",
+    "invalid": "Geçersiz e-posta veya şifre.",
+    "exists": "Bu e-posta ile bir hesap zaten mevcut.",
+    "passwordShort": "Şifre en az 6 karakter olmalıdır.",
+    "demoHint": "Giriş bilgilerini doldurmak için bir role dokunun.",
+    "selected": "Seçildi",
+    "roles": {
+      "admin": "Yönetici",
+      "trainer": "Antrenör",
+      "user": "Üye"
+    },
+    "roleHints": {
+      "admin": "Tesis özeti, antrenörler, ürünler, tüm rezervasyonlar.",
+      "trainer": "Seans talepleri, kabul/red, QR paylaşım linki.",
+      "user": "Koç rezerve edin ve seanslarınızı yönetin."
+    }
+  },
+  "contactForm": {
+    "name": "Ad",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "send": "Mesaj gönder",
+    "fillAll": "Lütfen tüm alanları doldurun.",
+    "validEmail": "Geçerli bir e-posta girin.",
+    "sent": "Mesaj alındı (demo). Yakında size döneceğiz."
+  },
+  "booking": {
+    "signInPrompt": "{name} ile seans ayırtmak için giriş yapın.",
+    "signInToBook": "Ayırtmak için giriş yap",
+    "booked": "Ayırtıldı",
+    "redirecting": "Panelinize yönlendiriliyorsunuz…",
+    "step1": "1. Seans türü",
+    "step2": "2. Tarih",
+    "step3": "3. Zaman dilimi",
+    "pending": "Antrenörden onay bekleniyor",
+    "confirm": "Rezervasyonu onayla"
+  },
+  "dashboard": {
+    "roleDashboard": "{role} paneli",
+    "yourBookings": "Rezervasyonlarınız",
+    "noBookings": "Henüz rezervasyon yok.",
+    "findTrainer": "Antrenör bul",
+    "incoming": "Gelen rezervasyonlar",
+    "noRequests": "Henüz rezervasyon talebi yok.",
+    "accept": "Kabul et",
+    "decline": "Reddet",
+    "cancel": "İptal",
+    "trainers": "Antrenörler",
+    "saloons": "Salonlar",
+    "products": "Ürünler",
+    "allBookings": "Tüm rezervasyonlar",
+    "noBookingsYet": "Henüz rezervasyon yok.",
+    "adminBadge": "Yönetici paneli",
+    "adminIntro": "Antrenörleri, salonları, mağaza kataloğunu ve tüm rezervasyonları yönetin.",
+    "trainerBadge": "Antrenör masası",
+    "trainerIntro": "Seans taleplerini yönetin ve sosyal rezervasyon QR kodunuzu etkinleştirin.",
+    "memberBadge": "Üye merkezi",
+    "memberIntro": "Seanslarınızı takip edin ve birkaç dokunuşla sonraki koçu rezerve edin.",
+    "viewProfile": "Profili gör",
+    "pendingCount": "Bekleyen",
+    "confirmedCount": "Onaylanan",
+    "totalRequests": "Toplam"
+  },
+  "tools": {
+    "bmi": "VKİ",
+    "height": "Boy (cm)",
+    "weight": "Kilo (kg)",
+    "bmiNote": "Yalnızca tahmin—tıbbi tavsiye değildir.",
+    "oneRm": "1RM tahmini",
+    "weightLifted": "Kaldırılan ağırlık (kg)",
+    "reps": "Tekrarlar",
+    "oneRmNote": "Epley formülü tahmini.",
+    "macros": "Makro rehberi",
+    "bodyweight": "Vücut ağırlığı (kg)",
+    "goal": "Hedef",
+    "cut": "Kesim",
+    "maintain": "Koruma",
+    "bulk": "Kütle"
+  },
+  "status": {
+    "pending": "bekliyor",
+    "confirmed": "onaylandı",
+    "declined": "reddedildi",
+    "cancelled": "iptal edildi"
+  },
+  "content": {
+    "trainers": {
+      "maya-stone": {
+        "title": "Güç koçu",
+        "bio": "Maya hassas programlamayla ham güç inşa eder. İlerleyici yüklenme ve form ustalığıyla yaşayan, eski rekabetçi powerlifter dönme koç.",
+        "specialties": [
+          "Powerlifting",
+          "Hipertrofi",
+          "Mobilite"
+        ]
+      },
+      "kai-rivers": {
+        "title": "HIIT ve kondisyon",
+        "bio": "Kai yağ yakan ve atletik dayanıklılık kuran yüksek yoğunluklu seanslar tasarlar—sizi yakmadan.",
+        "specialties": [
+          "HIIT",
+          "Metabolik kondisyon",
+          "Atletik performans"
+        ]
+      },
+      "elena-voss": {
+        "title": "Mobilite ve toparlanma",
+        "bio": "Elena hareket aralığını ve dayanıklılığı geri kazandırır. Seansları mobilite, nefes çalışması ve akıllı toparlanma protokollerini harmanlar.",
+        "specialties": [
+          "Mobilite",
+          "Toparlanma",
+          "Düzeltici egzersiz"
+        ]
+      },
+      "dante-cole": {
+        "title": "Boks ve fonksiyonel",
+        "bio": "Dante her seansa dövüş salonu enerjisi getirir—ayak işi, güç ve gerçek hayata geçen fonksiyonel kuvvet.",
+        "specialties": [
+          "Boks",
+          "Fonksiyonel güç",
+          "Core"
+        ]
+      }
+    },
+    "sessionTypes": {
+      "pt": "Kişisel antrenman",
+      "consult": "Program danışmanlığı",
+      "intro": "Ders tanıtımı"
+    },
+    "halls": {
+      "strength-floor": {
+        "name": "Güç salonu",
+        "description": "Olimpik platformlar, yarış rack'leri ve özel barlar. Açık görüş hatları ve yoğun kauçuk zeminle ciddi kaldırma için inşa edildi.",
+        "features": [
+          "Güç rack'leri",
+          "Bumper plakalar",
+          "Deadlift platformları",
+          "Kablo istasyonları"
+        ]
+      },
+      "cycle-studio": {
+        "name": "Bisiklet stüdyosu",
+        "description": "Senkronize aydınlatma ve eğitmenli tırmanışlarla immersif sürüş odası. Gece sürüşü gibi hissettiren yüksek enerjili seanslar.",
+        "features": [
+          "Akıllı bisikletler",
+          "LED senkron",
+          "Kalp atışı takibi",
+          "Ses sistemi"
+        ]
+      },
+      "recovery-suite": {
+        "name": "Toparlanma süiti",
+        "description": "Yumuşak doku çalışması, nefes pratiği ve seans sonrası sıfırlama için sessiz bölge. Yoğunluk restorasyonla buluşur.",
+        "features": [
+          "Köpük roller",
+          "Esneme alanları",
+          "Soğuk plunge erişimi",
+          "Masaj tabancaları"
+        ]
+      },
+      "combat-bay": {
+        "name": "Dövüş alanı",
+        "description": "Boks ve fonksiyonel dövüş antrenmanı için ağır torbalar, açık matlar ve sparring alanı.",
+        "features": [
+          "Ağır torbalar",
+          "Açık matlar",
+          "Hız torbaları",
+          "Ayna duvarı"
+        ]
+      }
+    },
+    "services": {
+      "strength-systems": {
+        "name": "Güç sistemleri",
+        "description": "Hipertrofi, güç ve atletik kuvvet için periodize kaldırma programları—salonda canlı koçluk.",
+        "category": "Antrenman"
+      },
+      "forge-hiit": {
+        "name": "Forge HIIT",
+        "description": "Metabolizmayı yükselten ve 45 dakikadan az sürede iş kapasitesi kuran kısa, sert aralıklar.",
+        "category": "Kondisyon"
+      },
+      "mobility-lab": {
+        "name": "Mobilite laboratuvarı",
+        "description": "Daha uzun antrenman etmenizi sağlayan eklem hazırlığı, yumuşak doku ve hareket kalitesi seansları.",
+        "category": "Toparlanma"
+      },
+      "boxing-fundamentals": {
+        "name": "Boks temelleri",
+        "description": "Yeni başlayanlardan orta seviye dövüşçülere duruş, yumruk mekaniği ve pad çalışması.",
+        "category": "Dövüş"
+      },
+      "nutrition-coaching": {
+        "name": "Beslenme koçluğu",
+        "description": "Antrenman bloğunuza hizalanmış pratik yakıt planları—şok diyetler yok, sadece tutarlılık.",
+        "category": "Koçluk"
+      },
+      "group-cycles": {
+        "name": "Grup bisiklet",
+        "description": "Tırmanışlar, sprintler ve müzik odaklı tempoyla eğitmenli sürüşler.",
+        "category": "Kardio"
+      }
+    },
+    "pricing": {
+      "ignite": {
+        "name": "Ignite",
+        "description": "Açık salon erişimi ve temel dersler.",
+        "features": [
+          "Salon erişimi",
+          "Haftada 2 grup ders",
+          "Günlük dolap kullanımı",
+          "Uygulama antrenman kütüphanesi"
+        ]
+      },
+      "forge": {
+        "name": "Forge",
+        "description": "Sınırsız dersler artı toparlanma süiti erişimi.",
+        "features": [
+          "Sınırsız grup dersleri",
+          "Toparlanma süiti erişimi",
+          "Ayda 1 PT seansı",
+          "Aylık misafir geçişi",
+          "Öncelikli rezervasyon"
+        ]
+      },
+      "elite": {
+        "name": "Elite",
+        "description": "Kararlı sporcular için tam koçluk paketi.",
+        "features": [
+          "Forge'daki her şey",
+          "Ayda 4 PT seansı",
+          "Beslenme danışmanlığı",
+          "Özel programlama",
+          "Sınırsız arkadaş getirme"
+        ]
+      }
+    },
+    "products": {
+      "forge-performance-tee": {
+        "name": "Forge Performance Tee",
+        "description": "Nemi emen kumaş ve temiz atletik kesimle nefes alan antrenman tişörtü.",
+        "category": "Giyim"
+      },
+      "iron-grip-straps": {
+        "name": "Iron Grip Straps",
+        "description": "Tutuş sınırlayıcı olduğunda çekişler ve deadliftler için ağır hizmet kaldırma kayışları.",
+        "category": "Aksesuarlar"
+      },
+      "forge-shaker": {
+        "name": "Forge Shaker",
+        "description": "Karıştırma ızgarası ve mat siyah bitişli sızdırmaz 700ml shaker.",
+        "category": "Aksesuarlar"
+      },
+      "recovery-foam-roller": {
+        "name": "Recovery Foam Roller",
+        "description": "Seans sonrası yumuşak doku çalışması için yüksek yoğunluklu roller.",
+        "category": "Toparlanma"
+      },
+      "forge-hoodie": {
+        "name": "Forge Heavy Hoodie",
+        "description": "Güçlendirilmiş dikişler ve işlemeli işaretli ısınma hoodie'si.",
+        "category": "Giyim"
+      },
+      "resistance-bands-set": {
+        "name": "Resistance Bands Set",
+        "description": "Isınma, yardım ve aksesuar çalışması için dört seviyeli loop bantlar.",
+        "category": "Ekipman"
+      }
+    },
+    "equipment": {
+      "competition-power-rack": {
+        "name": "Yarış güç rack'i",
+        "category": "Güç",
+        "description": "Ciddi barbell çalışması için güvenlik pimleri, bant peğleri ve çift barfiks istasyonlu tam kafesler.",
+        "hall": "Güç salonu"
+      },
+      "olympic-platforms": {
+        "name": "Olimpik platformlar",
+        "category": "Güç",
+        "description": "Bumper plakalar ve kalibre barlarla özel çekiş/itiş platformları.",
+        "hall": "Güç salonu"
+      },
+      "smart-cycle-bikes": {
+        "name": "Akıllı bisikletler",
+        "category": "Kardio",
+        "description": "Direnç senkronu, kadans takibi ve eğitmenli sürüşlerle bağlı bisikletler.",
+        "hall": "Bisiklet stüdyosu"
+      },
+      "heavy-bag-line": {
+        "name": "Ağır torba hattı",
+        "category": "Dövüş",
+        "description": "Güç, kombinasyonlar ve kondisyon rauntları için birden fazla torba istasyonu.",
+        "hall": "Dövüş alanı"
+      },
+      "cold-plunge": {
+        "name": "Soğuk plunge",
+        "category": "Toparlanma",
+        "description": "Seans sonrası toparlanma ve sinir sistemi sıfırlaması için sıcaklık kontrollü plunge.",
+        "hall": "Toparlanma süiti"
+      },
+      "cable-functional-rig": {
+        "name": "Kablo fonksiyonel rig",
+        "category": "Fonksiyonel",
+        "description": "Aksesuar çalışması, rehabilitasyon kalıpları ve atletik driller için çift ayarlanabilir kablolar.",
+        "hall": "Güç salonu"
+      }
+    },
+    "blog": {
+      "progressive-overload-without-burnout": {
+        "title": "Tükenmeden ilerleyici yüklenme",
+        "excerpt": "Eklemleri, uykuyu ve uzun vadeli ilerlemeyi koruyarak haftadan haftaya yükü nasıl ekleyeceğiniz.",
+        "content": "İlerleyici yüklenme gücün motorudur—ama yalnızca toparlanma ayak uydurduğunda.\n\nHer seansta bir birincil kaldırmayı takip ederek başlayın. Form tüm çalışma setlerinde temiz kaldığında en küçük faydalı artışı ekleyin. Bar hızı dramatik yavaşlarsa veya sabah eklemler ağrırsa, yükü tutun ve daha iyi tekrarlar kovalayın.\n\nHer 4–6 haftada deload edin: yoğunluğu tanıdık tutarken hacmi ~%40 kesin. Bunu uyku hedefleri ve protein tutarlılığıyla eşleştirin. Amaç sonsuz yükseliş değil—sürdürülebilir kapasitedir.\n\nForge ipucu: son çalışma setinizi filme alın. Görsel geri bildirim teknik kaymayı yaralanmadan önce yakalar.",
+        "tags": [
+          "Güç",
+          "Programlama"
+        ]
+      },
+      "hiit-that-actually-transfers": {
+        "title": "Gerçekten transfer olan HIIT",
+        "excerpt": "Tüm aralıklar eşit değildir. Sporunuzu ve kaldırmalarınızı destekleyen kondisyon kurun.",
+        "content": "Rastgele burpee devreleri bir kondisyon planı değildir.\n\nEtkili HIIT, iş:dinlenme oranını istediğiniz enerji sistemine eşleştirir. Güç sporcuları için daha uzun toparlanmalı kısa sprintler gücü korur. Yağ kaybı fazalarında orta dinlenmeli biraz daha uzun iş aralıkları, sonraki squat gününü mahvetmeden ortalama kalp atışını yükseltir.\n\nSeansları 30 dakikadan az sert işte tutun. İyice ısının. Burun nefesiyle soğuyun. Sadece kalori değil—RPE takip edin.\n\nForge ipucu: HIIT'i beceri çalışmasından sonra koyun, asla ağır alt vücut gününden önce değil.",
+        "tags": [
+          "HIIT",
+          "Kondisyon"
+        ]
+      },
+      "mobility-is-not-optional": {
+        "title": "Mobilite isteğe bağlı değildir",
+        "excerpt": "Sahip olduğunuz aralık yükleyebileceğiniz aralıktır. Pratik haftalık mobilite şablonu.",
+        "content": "Mobilite çalışması antrenmandır, yumuşak bir ek değil.\n\nKaldırmadan önce o gün yüklediğiniz eklemlere 10 dakika ayırın. Squat'tan önce kalça ve ayak bilekleri. Pres'ten önce torakal rotasyon. Antrenmandan sonra yapışkan hissettiren dokular için daha uzun tutuşlar ve yumuşak doku kullanın.\n\nTutarlılık maraton esneme seanslarını yener. Haftada üç kısa seans pazar günü bir saati geride bırakır.\n\nForge ipucu: bir pozisyonu test edin, çalışın, yeniden test edin. Hiçbir şey değişmezse, sadece süreyi değil—egzersizi değiştirin.",
+        "tags": [
+          "Mobilite",
+          "Toparlanma"
+        ]
+      }
+    },
+    "faq": {
+      "f1": {
+        "q": "Forge'a katılmak için deneyim gerekli mi?",
+        "a": "Hayır. Yeni başlayanlardan ileri seviye sporculara koçluk yapıyoruz. İlk seansınız oryantasyon içerir; salonu, güvenlik standartlarını ve antrenör ayırtmayı öğrenirsiniz."
+      },
+      "f2": {
+        "q": "Antrenör rezervasyonları nasıl çalışır?",
+        "a": "Bir antrenör seçin, seans türü seçin, açık bir slot seçin ve onaylayın. Rezervasyonları panelinizden yönetebilirsiniz. Antrenörler bekleyen talepleri onaylayabilir veya reddedebilir."
+      },
+      "f3": {
+        "q": "Üyeliğimi dondurabilir miyim?",
+        "a": "Evet. Forge ve Elite planları yılda 30 güne kadar bir dondurma dönemi içerir. Dondurma başlangıç tarihinden en az 5 gün önce bizimle iletişime geçin."
+      },
+      "f4": {
+        "q": "İlk ziyaretime ne getirmeliyim?",
+        "a": "Antrenman ayakkabıları, su şişesi ve hareket edebileceğiniz kıyafetler. Havlu ve günlük dolaplar yerinde mevcuttur. 15 dakika erken gelmenizi öneririz."
+      },
+      "f5": {
+        "q": "Salonlar tüm planlara dahil mi?",
+        "a": "Güç salonu erişimi her plana dahildir. Bisiklet stüdyosu, Toparlanma süiti ve Dövüş alanı erişimi üyelik kademesine göre değişir—ayrıntılar için Fiyatlar'a bakın."
+      },
+      "f6": {
+        "q": "Otopark var mı?",
+        "a": "Üyeler için antrenman saatlerinde doğrulanmış yeraltı otoparkı mevcuttur. Sokak parkı ve bisiklet rafları yakındadır."
+      }
+    },
+    "static": {
+      "privacy": {
+        "title": "Gizlilik politikası",
+        "content": "Forge Athletics gizliliğinize saygı duyar. Bu demo sitesi hesap ve rezervasyon verilerini yalnızca gösterim amaçlı olarak tarayıcınızda yerel olarak saklar.\n\nBu yalnızca frontend yapıda kişisel bilgileri bir üretim sunucusuna iletmiyoruz. Canlı bir dağıtımda veri sorumlularını, saklama sürelerini, çerez kullanımını ve geçerli gizlilik yasası altındaki haklarınızı özetlerdik.\n\nGizlilik soruları için hello@forgeathletics.com ile iletişime geçin."
+      },
+      "terms": {
+        "title": "Hizmet şartları",
+        "content": "Forge Athletics dijital hizmetlerini kullanarak sorumlu antrenman yapmayı ve tesis kurallarına uymayı kabul edersiniz.\n\nÜyelikler devredilemez. Rezervasyonlar ödeme sırasında gösterilen politikaya göre iptal edilebilir. Antrenman doğası gereği risk taşır—yeni bir programa başlamadan önce bir hekime danışın.\n\nBu frontend demo sunum amaçlıdır ve bağlayıcı bir ticari sözleşme oluşturmaz."
+      },
+      "amenities": {
+        "title": "Olanaklar",
+        "content": "Forge Athletics tam güç salonu, bisiklet stüdyosu, dövüş alanı ve toparlanma süiti içerir.\n\nGünlük dolaplar, duşlar, filtreli su ve havlu hizmeti mevcuttur. Forge ve Elite planlarındaki üyeler toparlanma süiti erişimi ve öncelikli ders rezervasyonu alır.\n\nWifi lounge ve toparlanma alanlarını kapsar. Misafir geçişleri üyelik kademenize bağlıdır."
+      }
+    },
+    "testimonials": {
+      "tm1": {
+        "role": "Forge üyesi · 14 ay",
+        "quote": "Koçluk keskin ve salonlar amaca özel hissediyor. Sonunda tutunan bir programım var."
+      },
+      "tm2": {
+        "role": "Güç sporcusu",
+        "quote": "Maya'yı ayırtmak sorunsuzdu. Ego kaldırmadan ilerleyici yüklenme—tam ihtiyacım olan."
+      },
+      "tm3": {
+        "role": "HIIT düzenlisi",
+        "quote": "Bisiklet stüdyosu geceleri farklı. Atmosfer karanlık, gürültülü ve odaklı—en iyi şekilde."
+      },
+      "tm4": {
+        "role": "Elite plan",
+        "quote": "Ağır günlerden sonra toparlanma süiti tutarlılığımı değiştirdi. Forge antrenmanı bir zanaat gibi ele alıyor."
+      }
+    }
+  },
+  "share": {
+    "badge": "Sosyal rezervasyon",
+    "title": "QR ve paylaşım linki",
+    "subtitle": "Instagram, WhatsApp ve daha fazlası için genel rezervasyon linkinizi ve QR kodunuzu etkinleştirin.",
+    "activate": "Linki etkinleştir",
+    "deactivate": "Devre dışı bırak",
+    "shareLink": "Paylaşım linki",
+    "copyLink": "Linki kopyala",
+    "copied": "Kopyalandı",
+    "preview": "Sayfayı önizle",
+    "socialHint": "Bu QR veya linki sosyal medyada paylaşın. Ziyaretçiler doğrudan rezervasyon CTA ile profilinize gelir.",
+    "inactiveHint": "Paylaşım linkiniz ve QR kapalı. Müşterilerin sosyal hesaplarınızdan rezervasyon yapması için etkinleştirin.",
+    "inactiveTitle": "Link aktif değil",
+    "inactiveBody": "Bu antrenör henüz genel rezervasyon linkini etkinleştirmedi.",
+    "publicBadge": "Bu koçu rezerve et",
+    "fullProfile": "Tam profil"
+  }
+}

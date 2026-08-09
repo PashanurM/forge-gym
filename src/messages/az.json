@@ -1,0 +1,589 @@
+{
+  "meta": {
+    "titleDefault": "Forge Athletics | Premium Məşq",
+    "titleTemplate": "{title} | Forge Athletics",
+    "description": "Daha sərt məşq et. Döyülmüş ol."
+  },
+  "brand": {
+    "name": "Forge Athletics",
+    "shortName": "Forge",
+    "tagline": "Daha sərt məşq et. Döyülmüş ol.",
+    "eyebrow": "Forge Athletics"
+  },
+  "nav": {
+    "home": "Ana səhifə",
+    "about": "Haqqımızda",
+    "gym": "İdman zalı",
+    "halls": "Zallar",
+    "trainers": "Məşqçilər",
+    "services": "Xidmətlər",
+    "tools": "Alətlər",
+    "equipment": "Avadanlıq",
+    "pricing": "Qiymətlər",
+    "shop": "Mağaza",
+    "blog": "Bloq",
+    "faq": "Suallar",
+    "contact": "Əlaqə",
+    "join": "Qoşul",
+    "joinForge": "Forge-a qoşul",
+    "dashboard": "İdarə paneli",
+    "logout": "Çıxış",
+    "openMenu": "Menyunu aç",
+    "closeMenu": "Menyunu bağla",
+    "language": "Dil"
+  },
+  "footer": {
+    "explore": "Kəşf et",
+    "visit": "Ziyarət",
+    "privacy": "Məxfilik",
+    "terms": "Şərtlər",
+    "rights": "© {year} Forge Athletics. Məqsədlə məşq et."
+  },
+  "common": {
+    "backHome": "Ana səhifəyə qayıt",
+    "loading": "Yüklənir…",
+    "years": "il",
+    "capacity": "Tutum {count}",
+    "exploreHall": "Zalı kəşf et",
+    "getAccess": "Giriş əldə et",
+    "askAboutThis": "Bunu soruş",
+    "allTrainers": "Bütün məşqçilər",
+    "viewPricing": "Qiymətlərə bax",
+    "bookSession": "Seans bron et",
+    "bookTrainer": "Məşqçi bron et",
+    "moreProducts": "Daha çox məhsul",
+    "inquireInClub": "Klubda soruş",
+    "seeHalls": "Zallara bax",
+    "trainingTools": "Məşq alətləri",
+    "viewEquipment": "Avadanlığa bax",
+    "sessionTypes": "Seans növləri",
+    "features": "Xüsusiyyətlər",
+    "min": "dəq",
+    "mostPopular": "Ən populyar",
+    "startPlan": "{name} planına başla",
+    "backBlog": "← Bloq",
+    "backShop": "← Mağaza",
+    "hallLabel": "Zal 0{n}",
+    "hallsZallar": "Halls · Zallar"
+  },
+  "home": {
+    "heroHeadline": "Daha sərt məşq et. Döyülmüş ol.",
+    "heroSub": "Güc, kondision və bərpa bir dam altında—məqsədlə məşq etdirilir.",
+    "joinCta": "Forge-a qoşul",
+    "bookCta": "Məşqçi bron et",
+    "coachesTitle": "İrəli aparan məşqçilər",
+    "coachesSub": "Güc, HIIT, hərəkətlilik və döyüş üzrə mütəxəssislərlə seans bron edin.",
+    "scrollFloors": "Mərtəbələri sürüşdür",
+    "scrollFloorsSub": "Məqsədə uyğun zallar sürüşdürdükcə düzülür — güc, velosiped, bərpa, döyüş.",
+    "programsTitle": "Proqramlar və xidmətlər",
+    "programsSub": "Güc sistemlərindən qidalanma məşqinə qədər—yolunu seç.",
+    "pricingTitle": "İntensivliyə uyğun üzvlük",
+    "pricingSub": "Açıq zal, limitsiz dərslər və ya tam məşq paketi—forge səviyyəni seç.",
+    "blogTitle": "Zaldan",
+    "blogSub": "Proqramlaşma qeydləri, bərpa və məşq mədəniyyəti.",
+    "testimonialsTitle": "Üzvlər nə deyir",
+    "testimonialsSub": "Forge-da məşq edən idmançılardan real rəylər."
+  },
+  "about": {
+    "title": "Forge haqqında",
+    "subtitle": "Struktur, atmosfera və nəticə istəyən idmançılar üçün qurulmuş məşq evi.",
+    "lead": "Səyin görünən, tərəqqinin ölçülən olduğu bir məkan yaratdıq.",
+    "body": "Forge Athletics güc kollektivi kimi başladı və tam müəssisəyə çevrildi—güc zalı, velosiped studiyası, döyüş zonası və bərpa otağı bir dam altında. Yeni başlayanlardan rəqabətçilərə qədər eyni standartla məşq edirik: gəl, ağıllı məşq et, daha yaxşı get.",
+    "valuesTitle": "Nəyə inanırıq",
+    "valuesSub": "Zaldakı hər seansı formalaşdıran üç prinsip.",
+    "values": {
+      "v1Title": "Məqsədli intensivlik",
+      "v1Body": "Hər seansın məqsədi var. Toplanan ağır iş proqramlaşdırırıq.",
+      "v2Title": "Əvvəlcə məşqçilik",
+      "v2Body": "Cihazlar form düzəltmir. Məşqçilərimiz edir—zalda, hər gün.",
+      "v3Title": "Qalxmaq üçün bərpa ol",
+      "v3Body": "Bərpasız güc qısaömürlüdür. Suite bunun üçün mövcuddur."
+    }
+  },
+  "pages": {
+    "trainers": {
+      "title": "Məşqçilər",
+      "subtitle": "Məqsədlərinizə ixtisaslaşmış məşqçilərlə fərdi seanslar bron edin."
+    },
+    "halls": {
+      "title": "Zallar",
+      "subtitle": "Zallar — güc, velosiped, bərpa və döyüş üçün məqsədə uyğun otaqlar."
+    },
+    "services": {
+      "title": "Xidmətlər",
+      "subtitle": "Nəticəni dəyişən dərslər, məşqçilik və proqramlar."
+    },
+    "pricing": {
+      "title": "Qiymətlər",
+      "subtitle": "Nə qədər sərt məşq etmək istədiyinizə uyğun üzvlüyü seçin."
+    },
+    "shop": {
+      "title": "Mağaza",
+      "subtitle": "Məşq günləri üçün geyim və avadanlıq."
+    },
+    "tools": {
+      "title": "Alətlər",
+      "subtitle": "Məşq və qidalanma planlaması üçün kalkulyatorlar.",
+      "needMachines": "Cihazlara ehtiyacınız var?",
+      "needMachinesSub": "Hər zalda rəflər, velosipedlər, kisələr və bərpa avadanlığına baxın."
+    },
+    "equipment": {
+      "title": "Avadanlıq",
+      "subtitle": "Hər zalda cihazlar, rəflər və bərpa alətləri."
+    },
+    "blog": {
+      "title": "Bloq",
+      "subtitle": "Forge zalından məşq qeydləri."
+    },
+    "faq": {
+      "title": "Tez-tez verilən suallar",
+      "subtitle": "Üzvlük, bron və Forge ziyarəti haqqında qısa cavablar."
+    },
+    "contact": {
+      "title": "Əlaqə",
+      "subtitle": "Zalı gəzin, üzvlük soruşun və ya məşqçilik məsləhəti alın.",
+      "visit": "Ziyarət",
+      "mapPlaceholder": "Xəritə yer tutucu · {city}"
+    },
+    "login": {
+      "title": "Giriş",
+      "subtitle": "Bronlarınıza və idarə panelinizə daxil olun."
+    },
+    "register": {
+      "title": "Qeydiyyat",
+      "subtitle": "Məşqçi bron etmək üçün üzv hesabı yaradın."
+    },
+    "reserve": {
+      "title": "{name} bron et",
+      "subtitle": "Seans növü, tarix və boş vaxt seçin."
+    },
+    "dashboard": {
+      "title": "İdarə paneli"
+    },
+    "notFound": {
+      "title": "Səhifə hələ döyülməyib",
+      "body": "Bu marşrut mövcud deyil."
+    }
+  },
+  "auth": {
+    "email": "E-poçt",
+    "password": "Şifrə",
+    "name": "Ad",
+    "signIn": "Daxil ol",
+    "createAccount": "Hesab yarat",
+    "noAccount": "Hesabınız yoxdur?",
+    "register": "Qeydiyyat",
+    "haveAccount": "Artıq hesabınız var?",
+    "demoAccounts": "Demo profillər",
+    "invalid": "E-poçt və ya şifrə yanlışdır.",
+    "exists": "Bu e-poçt ilə hesab artıq mövcuddur.",
+    "passwordShort": "Şifrə ən azı 6 simvol olmalıdır.",
+    "demoHint": "Giriş məlumatlarını doldurmaq üçün rola toxunun.",
+    "selected": "Seçildi",
+    "roles": {
+      "admin": "Admin",
+      "trainer": "Məşqçi",
+      "user": "Üzv"
+    },
+    "roleHints": {
+      "admin": "Obyekt icmalı, məşqçilər, məhsullar, bütün bronlar.",
+      "trainer": "Cədvəl sorğuları, qəbul/rədd, QR paylaşım linki.",
+      "user": "Məşqçi bron edin və seanslarınızı idarə edin."
+    }
+  },
+  "contactForm": {
+    "name": "Ad",
+    "email": "E-poçt",
+    "message": "Mesaj",
+    "send": "Mesaj göndər",
+    "fillAll": "Zəhmət olmasa bütün sahələri doldurun.",
+    "validEmail": "Düzgün e-poçt daxil edin.",
+    "sent": "Mesaj qəbul edildi (demo). Tezliklə cavab verəcəyik."
+  },
+  "booking": {
+    "signInPrompt": "{name} ilə seans bron etmək üçün daxil olun.",
+    "signInToBook": "Bron etmək üçün daxil ol",
+    "booked": "Bron edildi",
+    "redirecting": "İdarə panelinizə yönləndirilirsiniz…",
+    "step1": "1. Seans növü",
+    "step2": "2. Tarix",
+    "step3": "3. Vaxt slotu",
+    "pending": "Məşqçidən təsdiq gözlənilir",
+    "confirm": "Bronu təsdiqlə"
+  },
+  "dashboard": {
+    "roleDashboard": "{role} idarə paneli",
+    "yourBookings": "Bronlarınız",
+    "noBookings": "Hələ bron yoxdur.",
+    "findTrainer": "Məşqçi tap",
+    "incoming": "Gələn bronlar",
+    "noRequests": "Hələ bron sorğusu yoxdur.",
+    "accept": "Qəbul et",
+    "decline": "Rədd et",
+    "cancel": "Ləğv et",
+    "trainers": "Məşqçilər",
+    "saloons": "Zallar",
+    "products": "Məhsullar",
+    "allBookings": "Bütün bronlar",
+    "noBookingsYet": "Hələ bron yoxdur.",
+    "adminBadge": "Admin idarəetmə",
+    "adminIntro": "Məşqçiləri, zalları, mağaza kataloqunu və bütün bronları idarə edin.",
+    "trainerBadge": "Məşqçi paneli",
+    "trainerIntro": "Seans sorğularını idarə edin və sosial bron QR-inizi aktivləşdirin.",
+    "memberBadge": "Üzv paneli",
+    "memberIntro": "Seanslarınızı izləyin və növbəti məşqçini bir neçə toxunuşla bron edin.",
+    "viewProfile": "Profilə bax",
+    "pendingCount": "Gözləyən",
+    "confirmedCount": "Təsdiqlənən",
+    "totalRequests": "Cəmi"
+  },
+  "tools": {
+    "bmi": "BKİ",
+    "height": "Boy (sm)",
+    "weight": "Çəki (kq)",
+    "bmiNote": "Yalnız təxmini—tibbi məsləhət deyil.",
+    "oneRm": "1RM təxmini",
+    "weightLifted": "Qaldırılan çəki (kq)",
+    "reps": "Təkrarlar",
+    "oneRmNote": "Epley düsturu ilə təxmini.",
+    "macros": "Makro bələdçisi",
+    "bodyweight": "Bədən çəkisi (kq)",
+    "goal": "Məqsəd",
+    "cut": "Kəsmə",
+    "maintain": "Saxlama",
+    "bulk": "Artırma"
+  },
+  "status": {
+    "pending": "gözləyir",
+    "confirmed": "təsdiqləndi",
+    "declined": "rədd edildi",
+    "cancelled": "ləğv edildi"
+  },
+  "content": {
+    "trainers": {
+      "maya-stone": {
+        "title": "Güc məşqçisi",
+        "bio": "Maya dəqiq proqramlaşma ilə xam güc qurur. Keçmiş peşəkar pauerlifter, indi progressiv yüklənmə və forma ustalığı ilə yaşayan məşqçi.",
+        "specialties": [
+          "Pauerliftinq",
+          "Hipertrofiya",
+          "Hərəkətlilik"
+        ]
+      },
+      "kai-rivers": {
+        "title": "HIIT və kondision",
+        "bio": "Kai yağ yandıran və idman dözümlülüyü quran yüksək intensiv seanslar hazırlayır—sizi tükətmədən.",
+        "specialties": [
+          "HIIT",
+          "Metabolik kondision",
+          "İdman performansı"
+        ]
+      },
+      "elena-voss": {
+        "title": "Hərəkətlilik və bərpa",
+        "bio": "Elena hərəkət diapazonunu və dayanıqlılığı bərpa edir. Seansları hərəkətlilik, nəfəs işi və ağıllı bərpa protokollarını birləşdirir.",
+        "specialties": [
+          "Hərəkətlilik",
+          "Bərpa",
+          "Korrektiv məşq"
+        ]
+      },
+      "dante-cole": {
+        "title": "Boks və funksional",
+        "bio": "Dante hər seansa döyüş-zal enerjisi gətirir—ayaq işi, güc və real həyata keçən funksional güc.",
+        "specialties": [
+          "Boks",
+          "Funksional güc",
+          "Kor"
+        ]
+      }
+    },
+    "sessionTypes": {
+      "pt": "Şəxsi məşq",
+      "consult": "Proqram konsultasiyası",
+      "intro": "Dərs tanışlığı"
+    },
+    "halls": {
+      "strength-floor": {
+        "name": "Güc zalı",
+        "description": "Olimpiya platformaları, yarış rəfləri və xüsusi ştanqlar. Açıq görünüş və sıx rezin döşəmə ilə ciddi qaldırma üçün qurulub.",
+        "features": [
+          "Güc rəfləri",
+          "Bumper disklər",
+          "Deadlift platformaları",
+          "Kabel stansiyaları"
+        ]
+      },
+      "cycle-studio": {
+        "name": "Velosiped studiyası",
+        "description": "Sinxron işıqlandırma və təlimatçı idarəli dırmanışlarla immersiv sürüş otağı. Gecə sürüşü kimi hiss olunan yüksək enerjili seanslar.",
+        "features": [
+          "Smart velosipedlər",
+          "LED sinxron",
+          "Ürək ritmi izləmə",
+          "Səs sistemi"
+        ]
+      },
+      "recovery-suite": {
+        "name": "Bərpa otağı",
+        "description": "Yumşaq toxuma işi, nəfəs praktikası və seans sonrası sıfırlama üçün sakit zona. İntensivlik bərpa ilə görüşür.",
+        "features": [
+          "Köpük roller",
+          "Dartınma zonaları",
+          "Soyuq plunge girişi",
+          "Masaj silahları"
+        ]
+      },
+      "combat-bay": {
+        "name": "Döyüş zonası",
+        "description": "Boks və funksional döyüş məşqi üçün ağır kisələr, açıq matlar və sparrinq sahəsi.",
+        "features": [
+          "Ağır kisələr",
+          "Açıq matlar",
+          "Sürət kisələri",
+          "Güzgü divarı"
+        ]
+      }
+    },
+    "services": {
+      "strength-systems": {
+        "name": "Güc sistemləri",
+        "description": "Hipertrofiya, güc və idman gücü üçün periodizasiya edilmiş qaldırma proqramları—zalda canlı məşq.",
+        "category": "Məşq"
+      },
+      "forge-hiit": {
+        "name": "Forge HIIT",
+        "description": "Metabolizmanı yüksəldən və 45 dəqiqədən az müddətdə iş qabiliyyəti quran qısa, sərt intervallar.",
+        "category": "Kondision"
+      },
+      "mobility-lab": {
+        "name": "Hərəkətlilik laboratoriyası",
+        "description": "Daha uzun məşq etməyiniz üçün oynaq hazırlığı, yumşaq toxuma və hərəkət keyfiyyəti seansları.",
+        "category": "Bərpa"
+      },
+      "boxing-fundamentals": {
+        "name": "Boks əsasları",
+        "description": "Yeni başlayanlardan orta səviyyəli döyüşçülərə qədər duruş, zərbə mexanikası və pad işi.",
+        "category": "Döyüş"
+      },
+      "nutrition-coaching": {
+        "name": "Qidalanma məşqi",
+        "description": "Məşq blokunuza uyğun praktik yanacaq planları—sürətli dietlər yox, sadəcə davamlılıq.",
+        "category": "Məşqçilik"
+      },
+      "group-cycles": {
+        "name": "Qrup velosiped",
+        "description": "Dırmanışlar, sprintlər və musiqi ilə idarə olunan tempi ilə təlimatçı idarəli sürüşlər.",
+        "category": "Kardio"
+      }
+    },
+    "pricing": {
+      "ignite": {
+        "name": "Ignite",
+        "description": "Açıq zal girişi və əsas dərslər.",
+        "features": [
+          "Zal girişi",
+          "Həftədə 2 qrup dərs",
+          "Gündəlik şkaf istifadəsi",
+          "Tətbiq məşq kitabxanası"
+        ]
+      },
+      "forge": {
+        "name": "Forge",
+        "description": "Limitsiz dərslər plus bərpa otağı girişi.",
+        "features": [
+          "Limitsiz qrup dərsləri",
+          "Bərpa otağı girişi",
+          "Ayda 1 PT seansı",
+          "Aylıq qonaq keçidi",
+          "Prioritet bron"
+        ]
+      },
+      "elite": {
+        "name": "Elite",
+        "description": "Sadiq idmançılar üçün tam məşq paketi.",
+        "features": [
+          "Forge-dakı hər şey",
+          "Ayda 4 PT seansı",
+          "Qidalanma konsultasiyası",
+          "Fərdi proqramlaşma",
+          "Limitsiz dost gətirmə"
+        ]
+      }
+    },
+    "products": {
+      "forge-performance-tee": {
+        "name": "Forge Performance Tee",
+        "description": "Nəm udan parça və təmiz atletik kəsimlə nəfəs alan məşq köynəyi.",
+        "category": "Geyim"
+      },
+      "iron-grip-straps": {
+        "name": "Iron Grip Straps",
+        "description": "Tutuş limit olduqda çəkmələr və deadliftlər üçün ağır yük qaldırma qayışları.",
+        "category": "Aksesuarlar"
+      },
+      "forge-shaker": {
+        "name": "Forge Shaker",
+        "description": "Qarışdırma toru və mat qara örtüklü sızdırmaz 700ml şeyker.",
+        "category": "Aksesuarlar"
+      },
+      "recovery-foam-roller": {
+        "name": "Recovery Foam Roller",
+        "description": "Seans sonrası yumşaq toxuma işi üçün yüksək sıxlıqlı roller.",
+        "category": "Bərpa"
+      },
+      "forge-hoodie": {
+        "name": "Forge Heavy Hoodie",
+        "description": "Gücləndirilmiş tikişlər və tikilmiş nişan ilə isinmə kapüşonlusu.",
+        "category": "Geyim"
+      },
+      "resistance-bands-set": {
+        "name": "Resistance Bands Set",
+        "description": "İsinmə, yardım və aksesuar işi üçün dörd səviyyəli loop lentlər.",
+        "category": "Avadanlıq"
+      }
+    },
+    "equipment": {
+      "competition-power-rack": {
+        "name": "Yarış güc rəfi",
+        "category": "Güc",
+        "description": "Ciddi ştanq işi üçün təhlükəsizlik sancağı, band peqləri və ikili dartınma stansiyaları olan tam qəfəslər.",
+        "hall": "Güc zalı"
+      },
+      "olympic-platforms": {
+        "name": "Olimpiya platformaları",
+        "category": "Güc",
+        "description": "Bumper disklər və kalibrləşdirilmiş ştanqlarla xüsusi çəkmə/itələmə platformaları.",
+        "hall": "Güc zalı"
+      },
+      "smart-cycle-bikes": {
+        "name": "Smart velosipedlər",
+        "category": "Kardio",
+        "description": "Müqavimət sinxronu, kadans izləmə və təlimatçı idarəli sürüşlərlə bağlı velosipedlər.",
+        "hall": "Velosiped studiyası"
+      },
+      "heavy-bag-line": {
+        "name": "Ağır kisə xətti",
+        "category": "Döyüş",
+        "description": "Güc, kombinasiyalar və kondision raundları üçün çoxsaylı kisə stansiyaları.",
+        "hall": "Döyüş zonası"
+      },
+      "cold-plunge": {
+        "name": "Soyuq plunge",
+        "category": "Bərpa",
+        "description": "Seans sonrası bərpa və sinir sistemi sıfırlaması üçün temperatur nəzarətli plunge.",
+        "hall": "Bərpa otağı"
+      },
+      "cable-functional-rig": {
+        "name": "Kabel funksional qurğu",
+        "category": "Funksional",
+        "description": "Aksesuar işi, reabilitasiya nümunələri və idman məşqləri üçün ikili tənzimlənən kabellər.",
+        "hall": "Güc zalı"
+      }
+    },
+    "blog": {
+      "progressive-overload-without-burnout": {
+        "title": "Tükənmədən progressiv yüklənmə",
+        "excerpt": "Oynaqları, yuxunu və uzunmüddətli tərəqqini qoruyaraq həftədən həftəyə yükü necə artırmaq olar.",
+        "content": "Progressiv yüklənmə gücün mühərrikidir—amma yalnız bərpa ayaqlaşdıqda.\n\nHər seansda bir əsas qaldırmanı izləməklə başlayın. Forma bütün iş setlərində təmiz qaldıqda ən kiçik faydalı artımı əlavə edin. Ştanq sürəti kəskin azalırsa və ya səhər oynaqlar ağrıyırsa, yükü saxlayın və daha yaxşı təkrarlar qovun.\n\nHər 4–6 həftədə deload edin: intensivliyi tanış saxlayaraq həcmi ~40% azaldın. Bunu yuxu hədəfləri və zülal davamlılığı ilə birləşdirin. Məqsəd sonsuz yüksəliş deyil—dayanıqlı qabiliyyətdir.\n\nForge məsləhəti: son iş setinizi çəkin. Vizual geribildirim texniki sürüşməni zədədən əvvəl tutur.",
+        "tags": [
+          "Güc",
+          "Proqramlaşma"
+        ]
+      },
+      "hiit-that-actually-transfers": {
+        "title": "Həqiqətən köçən HIIT",
+        "excerpt": "Bütün intervallar eyni deyil. İdmanınıza və qaldırmalarınıza dəstək olan kondision qurun.",
+        "content": "Təsadüfi burpee dövrələri kondision planı deyil.\n\nEffektiv HIIT iş:istirahəti istədiyiniz enerji sisteminə uyğunlaşdırır. Güc idmançıları üçün daha uzun bərpa ilə qısa sprintlər gücü qoruyur. Yağ itirmə fazalarında orta istirahətlə bir qədər uzun iş intervalları növbəti squat gününü məhv etmədən orta ürək ritmini yüksəldir.\n\nSeansları 30 dəqiqədən az sərt işdə saxlayın. Hərtərəfli isinin. Burnunla nəfəs alaraq soyuyun. Yalnız kaloriyə deyil—RPE izləyin.\n\nForge məsləhəti: HIIT-i bacarıq işindən sonra qoyun, heç vaxt ağır alt bədən günündən əvvəl deyil.",
+        "tags": [
+          "HIIT",
+          "Kondision"
+        ]
+      },
+      "mobility-is-not-optional": {
+        "title": "Hərəkətlilik istəyə bağlı deyil",
+        "excerpt": "Sahib olduğunuz diapazon yükə biləcəyiniz diapazondur. Praktik həftəlik hərəkətlilik şablonu.",
+        "content": "Hərəkətlilik işi məşqdir, yumşaq əlavə deyil.\n\nQaldırmadan əvvəl həmin gün yüklədiyiniz oynaqlara 10 dəqiqə sərf edin. Squatdan əvvəl omba və biləklər. Basmazdan əvvəl torakal rotasiya. Məşqdən sonra yapışqan hiss olunan toxumalar üçün daha uzun tutuşlar və yumşaq toxuma istifadə edin.\n\nDavamlılıq marafon dartınma seanslarını məğlub edir. Həftədə üç qısa seans bazar günü bir saatı üstələyir.\n\nForge məsləhəti: mövqeyi sınaqdan keçirin, məşq edin, yenidən sınaqdan keçirin. Heç nə dəyişmirsə, yalnız müddəti deyil—məşqi dəyişin.",
+        "tags": [
+          "Hərəkətlilik",
+          "Bərpa"
+        ]
+      }
+    },
+    "faq": {
+      "f1": {
+        "q": "Forge-a qoşulmaq üçün təcrübə lazımdır?",
+        "a": "Xeyr. Yeni başlayanlardan irəliləmiş idmançılara qədər məşq edirik. İlk seansınız oriyentasiya daxildir ki, zalı, təhlükəsizlik standartlarını və məşqçi bronunu biləsiniz."
+      },
+      "f2": {
+        "q": "Məşqçi rezervasiyaları necə işləyir?",
+        "a": "Məşqçi seçin, seans növü seçin, boş slot seçin və təsdiqləyin. Bronları idarə panelinizdən idarə edə bilərsiniz. Məşqçilər gözləyən sorğuları təsdiqləyə və ya rədd edə bilər."
+      },
+      "f3": {
+        "q": "Üzvlüyümü dondura bilərəm?",
+        "a": "Bəli. Forge və Elite planlarına ildə 30 günə qədər bir dondurma dövrü daxildir. Dondurma başlama tarixindən ən azı 5 gün əvvəl bizimlə əlaqə saxlayın."
+      },
+      "f4": {
+        "q": "İlk ziyarətimə nə gətirməliyəm?",
+        "a": "Məşq ayaqqabıları, su şüşəsi və hərəkət edə biləcəyiniz geyim. Dəsmallar və gündəlik şkaflar yerdə mövcuddur. 15 dəqiqə əvvəl gəlməyi tövsiyə edirik."
+      },
+      "f5": {
+        "q": "Zallar bütün planlara daxildir?",
+        "a": "Güc zalı girişi hər plana daxildir. Velosiped studiyası, Bərpa otağı və Döyüş zonası girişi üzvlük səviyyəsinə görə dəyişir—ətraflı üçün Qiymətlərə baxın."
+      },
+      "f6": {
+        "q": "Dayanacaq varmı?",
+        "a": "Üzvlər üçün məşq saatlarında təsdiqlənmiş yeraltı dayanacaq mövcuddur. Küçə dayanacağı və velosiped rəfləri yaxındadır."
+      }
+    },
+    "static": {
+      "privacy": {
+        "title": "Məxfilik siyasəti",
+        "content": "Forge Athletics məxfiliyinizə hörmət edir. Bu demo sayt hesab və bron məlumatlarını yalnız nümayiş məqsədləri üçün brauzerinizdə yerli saxlayır.\n\nBu yalnız frontend quruluşunda şəxsi məlumatları istehsal serverinə ötürmürük. Canlı yerləşdirmədə məlumat nəzarətçilərini, saxlama müddətlərini, cookie istifadəsini və tətbiq olunan məxfilik qanunu altında hüquqlarınızı izah edərdik.\n\nMəxfilik sualları üçün hello@forgeathletics.com ilə əlaqə saxlayın."
+      },
+      "terms": {
+        "title": "Xidmət şərtləri",
+        "content": "Forge Athletics rəqəmsal xidmətlərindən istifadə etməklə məsuliyyətlə məşq etməyə və müəssisə qaydalarına riayət etməyə razılaşırsınız.\n\nÜzvlüklər köçürülə bilməz. Bronlar ödəniş zamanı göstərilən siyasətə uyğun ləğv edilə bilər. Məşq özündə risk daşıyır—yeni proqrama başlamazdan əvvəl həkimə müraciət edin.\n\nBu frontend demo təqdimat məqsədləri üçündür və məcburi kommersiya müqaviləsi yaratmır."
+      },
+      "amenities": {
+        "title": "Rahatlıqlar",
+        "content": "Forge Athletics tam güc zalı, velosiped studiyası, döyüş zonası və bərpa otağı daxildir.\n\nGündəlik şkaflar, duşlar, filtrli su və dəsmal xidməti mövcuddur. Forge və Elite planlarındakı üzvlər bərpa otağı girişi və prioritet dərs bronu alır.\n\nWifi lounge və bərpa sahələrini əhatə edir. Qonaq keçidləri üzvlük səviyyənizdən asılıdır."
+      }
+    },
+    "testimonials": {
+      "tm1": {
+        "role": "Forge üzvü · 14 ay",
+        "quote": "Məşqçilik kəskindir və zallar məqsədə uyğun hiss olunur. Nəhayət yapışan bir proqramım var."
+      },
+      "tm2": {
+        "role": "Güc idmançısı",
+        "quote": "Maya ilə bron qüsursuz idi. Eqo qaldırmadan progressiv yüklənmə—tam ehtiyacım olan."
+      },
+      "tm3": {
+        "role": "HIIT daimi",
+        "quote": "Velosiped studiyası gecələri fərqlidir. Atmosfera qaranlıq, səsli və fokuslanmışdır—ən yaxşı mənada."
+      },
+      "tm4": {
+        "role": "Elite plan",
+        "quote": "Ağır günlərdən sonra bərpa otağı davamlılığımı dəyişdi. Forge məşqə sənətkarlıq kimi yanaşır."
+      }
+    }
+  },
+  "share": {
+    "badge": "Sosial bron",
+    "title": "QR və paylaşım linki",
+    "subtitle": "Instagram, WhatsApp və digər sosial şəbəkələr üçün ictimai bron linkini və QR kodunu aktivləşdirin.",
+    "activate": "Linki aktiv et",
+    "deactivate": "Deaktiv et",
+    "shareLink": "Paylaşım linki",
+    "copyLink": "Linki kopyala",
+    "copied": "Kopyalandı",
+    "preview": "Səhifəyə bax",
+    "socialHint": "Bu QR və ya linki sosial mediada paylaşın. Ziyarətçilər birbaşa bron düyməsi ilə profilinizə düşür.",
+    "inactiveHint": "Paylaşım linki və QR sönülüdür. Müştərilərin sosial hesablarınızdan bron etməsi üçün aktivləşdirin.",
+    "inactiveTitle": "Link aktiv deyil",
+    "inactiveBody": "Bu məşqçi hələ ictimai bron linkini aktivləşdirməyib.",
+    "publicBadge": "Bu məşqçini bron et",
+    "fullProfile": "Tam profil"
+  }
+}
