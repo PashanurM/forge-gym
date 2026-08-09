@@ -69,6 +69,7 @@ export function PinnedHalls() {
     const ctx = gsap.context(() => {
       // Match the GSAP demo: each panel pins; next panel scrolls over it.
       panelEls.forEach((panel, i) => {
+        // Keep pin stack below .home-after-pins (z-index: 40)
         gsap.set(panel, { zIndex: i + 1 });
 
         ScrollTrigger.create({
@@ -79,6 +80,15 @@ export function PinnedHalls() {
           pinSpacing: false,
           anticipatePin: 1,
           invalidateOnRefresh: true,
+          onLeave: () => {
+            // Last panel must not cover following sections
+            if (i === panelEls.length - 1) {
+              gsap.set(panel, { zIndex: 0 });
+            }
+          },
+          onEnterBack: () => {
+            gsap.set(panel, { zIndex: i + 1 });
+          },
         });
       });
     }, root);

@@ -440,7 +440,9 @@ body::before {
 /* Pinned panels — sequential 100vh panels; ScrollTrigger stacks via pinSpacing:false */
 .pinned-panels {
   position: relative;
+  z-index: 1;
   width: 100%;
+  isolation: isolate;
 }
 
 .pinned-panel {
@@ -452,6 +454,13 @@ body::before {
   justify-content: center;
   position: relative;
   overflow: hidden;
+  background: var(--bg);
+}
+
+/* Content after pinned halls must sit above fixed pin layers (zIndex 1..n) */
+.home-after-pins {
+  position: relative;
+  z-index: 40;
   background: var(--bg);
 }
 
