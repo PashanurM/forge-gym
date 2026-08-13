@@ -14,6 +14,7 @@
     "home": "Ana sayfa",
     "about": "Hakkımızda",
     "gym": "Spor salonu",
+    "branches": "Şubeler",
     "halls": "Salonlar",
     "trainers": "Antrenörler",
     "services": "Hizmetler",
@@ -48,6 +49,7 @@
     "getAccess": "Erişim al",
     "askAboutThis": "Bunu sor",
     "allTrainers": "Tüm antrenörler",
+    "trainersCount": "{count, plural, one {# antrenör} other {# antrenör}}",
     "viewPricing": "Fiyatlara bak",
     "bookSession": "Seans ayırt",
     "bookTrainer": "Antrenör ayırt",
@@ -104,6 +106,14 @@
     "trainers": {
       "title": "Antrenörler",
       "subtitle": "Hedeflerinize uzmanlaşmış koçlarla bire bir seanslar ayırtın."
+    },
+    "branches": {
+      "title": "Şubeler",
+      "subtitle": "Size yakın bir Forge konumu bulun—her birinin kendi salonu ve koç ekibi var.",
+      "trainersLabel": "Koçlar",
+      "trainersTitle": "Bu şubedeki antrenörler",
+      "trainersSubtitle": "Bu lokasyondaki koçlarla seans rezervasyonu yapın.",
+      "noTrainers": "Bu şubede henüz antrenör yok."
     },
     "halls": {
       "title": "Salonlar",
@@ -302,6 +312,50 @@
       "pt": "Kişisel antrenman",
       "consult": "Program danışmanlığı",
       "intro": "Ders tanıtımı"
+    },
+    "branches": {
+      "downtown": {
+        "name": "Downtown Forge",
+        "description": "Metro City merkezindeki amiral gemisi salonu—tam güç salonu, bisiklet stüdyosu ve geç saate kadar açık koç masası.",
+        "address": "420 Ironworks Ave",
+        "city": "Metro City",
+        "phone": "+1 (555) 014-2090",
+        "hours": "Pzt–Cum 5:00–23:00 · Cmt–Paz 7:00–21:00",
+        "features": [
+          "Tam güç salonu",
+          "Bisiklet stüdyosu",
+          "Toparlanma süiti",
+          "Üye lounge"
+        ]
+      },
+      "riverside": {
+        "name": "Riverside Forge",
+        "description": "Kondisyon, mobilite ve toparlanmaya odaklı nehir kenarı antrenman evi—tavana kadar cam ve açık matlar.",
+        "address": "88 Quayline Rd",
+        "city": "Metro City",
+        "phone": "+1 (555) 014-2091",
+        "hours": "Pzt–Cum 6:00–22:00 · Cmt–Paz 8:00–20:00",
+        "features": [
+          "HIIT bölgesi",
+          "Mobilite stüdyosu",
+          "Soğuk plunge",
+          "Açık ısınma terası"
+        ]
+      },
+      "westend": {
+        "name": "West End Forge",
+        "description": "Ağır torbalar, fonksiyonel şeritler ve dövüşçülerle günlük sporcuları çalıştıran koçlarla dövüş odaklı şube.",
+        "address": "15 Anvil Court",
+        "city": "Metro City",
+        "phone": "+1 (555) 014-2092",
+        "hours": "Pzt–Cum 5:30–22:30 · Cmt–Paz 8:00–20:00",
+        "features": [
+          "Dövüş alanı",
+          "Fonksiyonel şeritler",
+          "Sparring matları",
+          "Performans pisti"
+        ]
+      }
     },
     "halls": {
       "strength-floor": {

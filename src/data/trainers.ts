@@ -12,6 +12,7 @@ export const trainers: Trainer[] = [
       "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
     experienceYears: 8,
     rating: 4.9,
+    branchSlug: "downtown",
     sessionTypes: [
       { id: "pt", name: "Personal Training", durationMin: 60, price: 85 },
       { id: "consult", name: "Program Consult", durationMin: 30, price: 45 },
@@ -29,6 +30,7 @@ export const trainers: Trainer[] = [
       "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
     experienceYears: 6,
     rating: 4.8,
+    branchSlug: "downtown",
     sessionTypes: [
       { id: "pt", name: "Personal Training", durationMin: 60, price: 80 },
       { id: "consult", name: "Program Consult", durationMin: 30, price: 40 },
@@ -46,6 +48,7 @@ export const trainers: Trainer[] = [
       "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
     experienceYears: 7,
     rating: 4.95,
+    branchSlug: "riverside",
     sessionTypes: [
       { id: "pt", name: "Personal Training", durationMin: 60, price: 75 },
       { id: "consult", name: "Program Consult", durationMin: 30, price: 40 },
@@ -63,6 +66,7 @@ export const trainers: Trainer[] = [
       "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
     experienceYears: 10,
     rating: 4.85,
+    branchSlug: "westend",
     sessionTypes: [
       { id: "pt", name: "Personal Training", durationMin: 60, price: 90 },
       { id: "consult", name: "Program Consult", durationMin: 30, price: 50 },
@@ -73,4 +77,8 @@ export const trainers: Trainer[] = [
 
 export function getTrainerBySlug(slug: string) {
   return trainers.find((t) => t.slug === slug);
+}
+
+export function getTrainersByBranch(branchSlug: string) {
+  return trainers.filter((t) => t.branchSlug === branchSlug);
 }

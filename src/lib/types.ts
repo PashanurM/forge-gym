@@ -20,6 +20,20 @@ export type Trainer = {
   experienceYears: number;
   rating: number;
   sessionTypes: SessionType[];
+  branchSlug: string;
+};
+
+export type Branch = {
+  id: string;
+  slug: string;
+  name: string;
+  description: string;
+  address: string;
+  city: string;
+  phone: string;
+  hours: string;
+  features: string[];
+  image: string;
 };
 
 export type SessionType = {

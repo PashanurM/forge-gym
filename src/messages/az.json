@@ -14,6 +14,7 @@
     "home": "Ana səhifə",
     "about": "Haqqımızda",
     "gym": "İdman zalı",
+    "branches": "Filiallar",
     "halls": "Zallar",
     "trainers": "Məşqçilər",
     "services": "Xidmətlər",
@@ -48,6 +49,7 @@
     "getAccess": "Giriş əldə et",
     "askAboutThis": "Bunu soruş",
     "allTrainers": "Bütün məşqçilər",
+    "trainersCount": "{count, plural, one {# məşqçi} other {# məşqçi}}",
     "viewPricing": "Qiymətlərə bax",
     "bookSession": "Seans bron et",
     "bookTrainer": "Məşqçi bron et",
@@ -104,6 +106,14 @@
     "trainers": {
       "title": "Məşqçilər",
       "subtitle": "Məqsədlərinizə ixtisaslaşmış məşqçilərlə fərdi seanslar bron edin."
+    },
+    "branches": {
+      "title": "Filiallar",
+      "subtitle": "Yaxınlığınızdakı Forge məkanını tapın—hər birinin öz zalı və məşqçi komandası var.",
+      "trainersLabel": "Məşqçilər",
+      "trainersTitle": "Bu filiala məşqçilər",
+      "trainersSubtitle": "Bu məkanda işləyən məşqçilərlə seans bron edin.",
+      "noTrainers": "Bu filialda hələ məşqçi yoxdur."
     },
     "halls": {
       "title": "Zallar",
@@ -302,6 +312,50 @@
       "pt": "Şəxsi məşq",
       "consult": "Proqram konsultasiyası",
       "intro": "Dərs tanışlığı"
+    },
+    "branches": {
+      "downtown": {
+        "name": "Downtown Forge",
+        "description": "Metro City mərkəzində flaqman zalımız—tam güc zalı, velosiped studiyası və gecəyə qədər açıq məşqçi masası.",
+        "address": "420 Ironworks Ave",
+        "city": "Metro City",
+        "phone": "+1 (555) 014-2090",
+        "hours": "B.e–Cümə 5:00–23:00 · Şən–Baz 7:00–21:00",
+        "features": [
+          "Tam güc zalı",
+          "Velosiped studiyası",
+          "Bərpa otağı",
+          "Üzv lounge"
+        ]
+      },
+      "riverside": {
+        "name": "Riverside Forge",
+        "description": "Kondision, hərəkətlilik və bərpaya fokuslanmış çaykənarı məşq evi—döşəmədən tavana şüşə və açıq matlar.",
+        "address": "88 Quayline Rd",
+        "city": "Metro City",
+        "phone": "+1 (555) 014-2091",
+        "hours": "B.e–Cümə 6:00–22:00 · Şən–Baz 8:00–20:00",
+        "features": [
+          "HIIT zonası",
+          "Hərəkətlilik studiyası",
+          "Soyuq plunge",
+          "Açıq isinmə göyərtəsi"
+        ]
+      },
+      "westend": {
+        "name": "West End Forge",
+        "description": "Ağır kisələr, funksional zolaqlar və döyüşçülərlə gündəlik idmançıları məşq etdirən məşqçilərlə döyüş yönümlü filial.",
+        "address": "15 Anvil Court",
+        "city": "Metro City",
+        "phone": "+1 (555) 014-2092",
+        "hours": "B.e–Cümə 5:30–22:30 · Şən–Baz 8:00–20:00",
+        "features": [
+          "Döyüş zonası",
+          "Funksional zolaqlar",
+          "Sparrinq matları",
+          "Performans treki"
+        ]
+      }
     },
     "halls": {
       "strength-floor": {

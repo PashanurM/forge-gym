@@ -24,6 +24,7 @@ export const mainNav: NavItem[] = [
   {
     labelKey: "gym",
     children: [
+      { href: "/branches", labelKey: "branches" },
       { href: "/saloons", labelKey: "halls" },
       { href: "/trainers", labelKey: "trainers" },
       { href: "/services", labelKey: "services" },
@@ -41,6 +42,7 @@ export const mainNav: NavItem[] = [
 export const footerLinkKeys = [
   { href: "/", labelKey: "home" },
   { href: "/about", labelKey: "about" },
+  { href: "/branches", labelKey: "branches" },
   { href: "/saloons", labelKey: "halls" },
   { href: "/services", labelKey: "services" },
   { href: "/tools", labelKey: "tools" },
