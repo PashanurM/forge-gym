@@ -64,12 +64,30 @@ export type Service = {
 
 export type PricingPlan = {
   id: string;
+  slug?: string;
   name: string;
   price: number;
   period: string;
   description: string;
   features: string[];
   highlighted?: boolean;
+};
+
+export type PricingItem = {
+  id: string;
+  slug: string;
+  name: string;
+  price: number;
+  image: string;
+  description: string;
+  details: string;
+};
+
+export type GymTool = {
+  id: string;
+  slug: string;
+  name: string;
+  description: string;
 };
 
 export type Product = {

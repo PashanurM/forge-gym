@@ -40,6 +40,7 @@ export default async function TrainerDetailPage({ params }: Props) {
             src={trainer.image}
             alt={trainer.name}
             fill
+            quality={95}
             className="object-cover"
             sizes="(max-width:1024px) 100vw, 50vw"
             priority

@@ -32,17 +32,18 @@ export default async function SaloonsPage({ params }: Props) {
             <Link
               key={saloon.id}
               href={`/saloons/${saloon.slug}`}
-              className="card-forge group block"
+              className="card-forge group block min-w-0"
               data-aos="fade-up"
               data-aos-delay={i * 60}
             >
-              <div className="relative aspect-[16/10]">
+              <div className="relative aspect-[16/10] overflow-hidden">
                 <Image
                   src={saloon.image}
                   alt={tHalls(`${saloon.slug}.name`)}
                   fill
+                  quality={90}
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
-                  sizes="(max-width:768px) 100vw, 50vw"
+                  sizes="(max-width:640px) 100vw, 50vw"
                 />
               </div>
               <div className="p-6">

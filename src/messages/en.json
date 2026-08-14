@@ -142,6 +142,12 @@
     },
     "pricing": {
       "title": "Pricing",
+      "subtitle": "A clear list of what you pay — name, price, done.",
+      "moreInfo": "More info",
+      "close": "Close"
+    },
+    "pricingOld": {
+      "title": "Memberships",
       "subtitle": "Pick the membership that matches how hard you want to train."
     },
     "shop": {
@@ -427,6 +433,33 @@
         "name": "Elite",
         "description": "Full coaching stack for committed athletes.",
         "features": ["Everything in Forge", "4 PT sessions / month", "Nutrition consult", "Custom programming", "Bring-a-friend unlimited"]
+      }
+    },
+    "priceList": {
+      "day-pass": {
+        "name": "Day Pass",
+        "description": "Open floor access for one training day.",
+        "details": "Train until close on the open floor — racks, platforms, cardio, and locker access included. Towels at the desk. Peak hours fill fast, so arrive early if you want a platform. Valid for the calendar day you check in."
+      },
+      "personal-training": {
+        "name": "Personal Training",
+        "description": "A 60-minute 1:1 session with a coach.",
+        "details": "Sixty minutes one-to-one with a coach: warm-up, strength or conditioning block, and a cooldown. Programming is built around your goal — strength, fat loss, or return-to-training. Book at the desk or with your coach. Cancel at least 12 hours ahead."
+      },
+      "group-class": {
+        "name": "Group Class",
+        "description": "Coach-led session on the class timetable.",
+        "details": "A coached group session from the weekly timetable — strength, cycle, combat, or conditioning. Arrive 10 minutes early for setup. Drop-in is one class; members book in the app. Bring water and indoor shoes."
+      },
+      "recovery-session": {
+        "name": "Recovery Session",
+        "description": "Stretch, mobility, and recovery suite time.",
+        "details": "Guided mobility plus time in the recovery suite: stretch, breath work, and soft-tissue tools. Best the day after heavy lifting or a long class block. Sessions last about 45 minutes. Ask the floor coach if you are new to the suite."
+      },
+      "nutrition-consult": {
+        "name": "Nutrition Consult",
+        "description": "A focused plan for fueling your training.",
+        "details": "A 45-minute consult covering how you eat around training: protein targets, meal timing, and a simple weekly plan. Bring a typical food log if you have one. Follow-ups can be booked separately once the first plan is in place."
       }
     },
     "products": {

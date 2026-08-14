@@ -18,7 +18,7 @@ export const branches: Branch[] = [
       "Member lounge",
     ],
     image:
-      "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1200&q=80",
+      "https://images.unsplash.com/photo-1571902943202-507ec2618e8f",
   },
   {
     id: "b2",
@@ -37,7 +37,7 @@ export const branches: Branch[] = [
       "Outdoor warm-up deck",
     ],
     image:
-      "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=1200&q=80",
+      "https://images.unsplash.com/photo-1558611848-73f7eb4001a1",
   },
   {
     id: "b3",
@@ -56,7 +56,7 @@ export const branches: Branch[] = [
       "Performance track",
     ],
     image:
-      "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=1200&q=80",
+      "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5",
   },
 ];
 

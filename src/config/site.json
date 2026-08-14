@@ -1,0 +1,44 @@
+{
+  "template": "gym",
+  "brand": {
+    "name": "Forge Athletics",
+    "shortName": "Forge",
+    "tagline": "Train harder. Become forged.",
+    "email": "hello@forgeathletics.com",
+    "phone": "+1 (555) 014-2090",
+    "address": "420 Ironworks Ave, Downtown",
+    "city": "Metro City",
+    "logo": "",
+    "social": {
+      "instagram": "https://instagram.com",
+      "youtube": "https://youtube.com",
+      "x": "https://x.com"
+    }
+  },
+  "colors": {
+    "bg": "#0a0b0c",
+    "bgElevated": "#121416",
+    "surface": "#181b1f",
+    "surface2": "#22262c",
+    "text": "#f2f4f3",
+    "muted": "#9aa3ad",
+    "accent": "#c8ff3d",
+    "accent2": "#5ef2c3"
+  },
+  "pages": {
+    "home": true,
+    "about": true,
+    "branches": true,
+    "halls": true,
+    "trainers": true,
+    "services": true,
+    "tools": true,
+    "equipment": true,
+    "pricing": true,
+    "shop": true,
+    "blog": true,
+    "faq": true,
+    "contact": true,
+    "auth": true
+  }
+}

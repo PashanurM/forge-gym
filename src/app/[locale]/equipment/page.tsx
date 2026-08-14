@@ -33,17 +33,18 @@ export default async function EquipmentPage({ params }: Props) {
             return (
               <article
                 key={item.id}
-                className="card-forge group"
+                className="card-forge group min-w-0"
                 data-aos="fade-up"
                 data-aos-delay={i * 50}
               >
-                <div className="relative aspect-[16/11]">
+                <div className="relative aspect-[16/11] overflow-hidden">
                   <Image
                     src={item.image}
                     alt={name}
                     fill
+                    quality={90}
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width:768px) 100vw, 33vw"
+                    sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
                   />
                 </div>
                 <div className="p-6">

@@ -39,7 +39,7 @@ export function PinnedHalls() {
         subtitle: tc("hallsZallar"),
         description: t("scrollFloorsSub"),
         image:
-          "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600&q=80",
+          "https://images.unsplash.com/photo-1534438327276-14e5300c3a48",
         isIntro: true,
       },
       ...saloons.map((hall, index) => ({
@@ -122,6 +122,7 @@ export function PinnedHalls() {
                   : "object-cover opacity-45"
               }
               sizes="100vw"
+              quality={90}
               priority={panel.isIntro}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/60 to-bg/35" />
@@ -134,7 +135,7 @@ export function PinnedHalls() {
                   {panel.subtitle}
                 </p>
               ) : null}
-              <h2 className="font-display text-[clamp(3.5rem,10vw,7rem)] leading-none">
+              <h2 className="font-display text-[clamp(2.75rem,9vw,7rem)] leading-none">
                 {panel.title}
               </h2>
               <p className="mt-4 text-muted text-lg">{panel.description}</p>
@@ -148,7 +149,7 @@ export function PinnedHalls() {
                       {panel.subtitle}
                     </p>
                   ) : null}
-                  <h3 className="mt-3 font-display text-[clamp(3rem,8vw,6.5rem)] leading-none">
+                  <h3 className="mt-3 font-display text-[clamp(2.5rem,8vw,6.5rem)] leading-none">
                     {panel.title}
                   </h3>
                   <p className="mt-4 max-w-lg text-muted text-lg">

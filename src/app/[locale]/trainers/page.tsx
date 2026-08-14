@@ -35,19 +35,20 @@ export default async function TrainersPage({ params }: Props) {
               <Link
                 key={trainer.id}
                 href={`/trainers/${trainer.slug}`}
-                className="card-forge group block"
+                className="card-forge group block min-w-0"
                 data-aos="fade-up"
                 data-aos-delay={i * 70}
               >
-                <div className="relative aspect-[3/4]">
+                <div className="relative aspect-[3/4] overflow-hidden">
                   <Image
                     src={trainer.image}
                     alt={trainer.name}
                     fill
+                    quality={95}
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width:768px) 100vw, 25vw"
+                    sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-bg via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-bg/90 via-bg/20 to-transparent" />
                 </div>
                 <div className="p-5 -mt-16 relative z-10">
                   <h2 className="font-display text-3xl group-hover:text-accent transition-colors">

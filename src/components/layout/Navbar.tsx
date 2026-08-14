@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { brand, mainNav, type NavItem } from "@/lib/brand";
+import { isPageEnabled } from "@/lib/site";
 import { cn } from "@/lib/cn";
 import { useAuth } from "@/context/AuthContext";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
@@ -90,8 +91,18 @@ export function Navbar() {
               transparent ? "text-white" : "text-text",
             )}
           >
-            {brand.shortName}
-            <span className="text-accent">.</span>
+            {brand.logo ? (
+              <img
+                src={brand.logo}
+                alt={brand.name}
+                className="h-9 w-auto max-w-40 object-contain"
+              />
+            ) : (
+              <>
+                {brand.shortName}
+                <span className="text-accent">.</span>
+              </>
+            )}
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
@@ -161,35 +172,36 @@ export function Navbar() {
               className="hidden lg:flex"
               light={transparent}
             />
-            {user ? (
-              <>
+            {isPageEnabled("auth") &&
+              (user ? (
+                <>
+                  <Link
+                    href="/dashboard"
+                    className="hidden lg:inline text-sm uppercase tracking-wider px-3 font-semibold text-accent"
+                  >
+                    {t("dashboard")}
+                  </Link>
+                  <button
+                    type="button"
+                    onClick={handleLogout}
+                    className={cn(
+                      "hidden lg:inline text-sm uppercase tracking-wider px-3 font-semibold transition-colors",
+                      transparent
+                        ? "text-white hover:text-accent"
+                        : "text-muted hover:text-white",
+                    )}
+                  >
+                    {t("logout")}
+                  </button>
+                </>
+              ) : (
                 <Link
-                  href="/dashboard"
-                  className="hidden lg:inline text-sm uppercase tracking-wider px-3 font-semibold text-accent"
+                  href="/login"
+                  className="btn-primary !py-2.5 !px-5 text-xs hidden lg:inline-flex"
                 >
-                  {t("dashboard")}
+                  {t("join")}
                 </Link>
-                <button
-                  type="button"
-                  onClick={handleLogout}
-                  className={cn(
-                    "hidden lg:inline text-sm uppercase tracking-wider px-3 font-semibold transition-colors",
-                    transparent
-                      ? "text-white hover:text-accent"
-                      : "text-muted hover:text-white",
-                  )}
-                >
-                  {t("logout")}
-                </button>
-              </>
-            ) : (
-              <Link
-                href="/login"
-                className="btn-primary !py-2.5 !px-5 text-xs hidden lg:inline-flex"
-              >
-                {t("join")}
-              </Link>
-            )}
+              ))}
             <button
               type="button"
               className={cn("hamburger", open && "is-open")}
@@ -281,34 +293,36 @@ export function Navbar() {
               );
             })}
 
-            <div className="mt-6 pt-6 border-t border-border space-y-3">
-              {user ? (
-                <>
+            {isPageEnabled("auth") && (
+              <div className="mt-6 pt-6 border-t border-border space-y-3">
+                {user ? (
+                  <>
+                    <Link
+                      href="/dashboard"
+                      className="mobile-nav-link text-accent"
+                      onClick={() => setOpen(false)}
+                    >
+                      {t("dashboard")}
+                    </Link>
+                    <button
+                      type="button"
+                      className="mobile-nav-link text-left text-muted"
+                      onClick={handleLogout}
+                    >
+                      {t("logout")}
+                    </button>
+                  </>
+                ) : (
                   <Link
-                    href="/dashboard"
-                    className="mobile-nav-link text-accent"
+                    href="/login"
+                    className="btn-primary w-full"
                     onClick={() => setOpen(false)}
                   >
-                    {t("dashboard")}
+                    {t("joinForge")}
                   </Link>
-                  <button
-                    type="button"
-                    className="mobile-nav-link text-left text-muted"
-                    onClick={handleLogout}
-                  >
-                    {t("logout")}
-                  </button>
-                </>
-              ) : (
-                <Link
-                  href="/login"
-                  className="btn-primary w-full"
-                  onClick={() => setOpen(false)}
-                >
-                  {t("joinForge")}
-                </Link>
-              )}
-            </div>
+                )}
+              </div>
+            )}
           </div>
         </div>
       </div>

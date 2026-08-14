@@ -49,6 +49,7 @@ export function ShareTrainerGate({ trainer }: { trainer: Trainer }) {
             src={trainer.image}
             alt={trainer.name}
             fill
+            quality={90}
             className="object-cover"
             sizes="(max-width:1024px) 100vw, 50vw"
             priority

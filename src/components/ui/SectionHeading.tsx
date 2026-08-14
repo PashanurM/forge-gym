@@ -20,7 +20,7 @@ export function SectionHeading({
       )}
     >
       <h2
-        className="font-display text-5xl md:text-7xl text-balance leading-none"
+        className="font-display text-[clamp(2.5rem,8vw,4.5rem)] md:text-7xl text-balance leading-none max-w-full"
         data-aos="fade-up"
       >
         {title}

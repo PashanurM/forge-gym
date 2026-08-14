@@ -33,15 +33,16 @@ export default async function BlogPage({ params }: Props) {
               <Link
                 key={post.id}
                 href={`/blog/${post.slug}`}
-                className="card-forge group block"
+                className="card-forge group block min-w-0"
                 data-aos="fade-up"
                 data-aos-delay={i * 70}
               >
-                <div className="relative aspect-[16/10]">
+                <div className="relative aspect-[16/10] overflow-hidden">
                   <Image
                     src={post.image}
                     alt={title}
                     fill
+                    quality={90}
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                     sizes="(max-width:768px) 100vw, 33vw"
                   />

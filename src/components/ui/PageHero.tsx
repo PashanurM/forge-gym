@@ -18,7 +18,7 @@ export function PageHero({
           {eyebrow}
         </p>
         <h1
-          className="font-display text-[clamp(3.5rem,10vw,7rem)] leading-none"
+          className="font-display text-[clamp(2.75rem,9vw,7rem)] leading-none max-w-full"
           data-aos="fade-up"
           data-aos-delay="80"
         >

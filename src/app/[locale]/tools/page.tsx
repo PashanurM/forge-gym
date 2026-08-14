@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHero } from "@/components/ui/PageHero";
 import { Calculators } from "@/components/tools/Calculators";
+import { extraTools } from "@/data/tools";
 import { Button } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
@@ -27,6 +28,16 @@ export default async function ToolsPage({ params }: Props) {
       <section className="section-pad pt-0">
         <div className="container-forge space-y-10">
           <Calculators />
+          {extraTools.length > 0 && (
+            <div className="grid gap-4 md:grid-cols-2">
+              {extraTools.map((tool) => (
+                <div key={tool.id} className="card-glass p-6 md:p-8">
+                  <h2 className="font-display text-3xl">{tool.name}</h2>
+                  <p className="text-muted mt-2">{tool.description}</p>
+                </div>
+              ))}
+            </div>
+          )}
           <div
             className="card-glass p-6 md:p-8 flex flex-wrap items-center justify-between gap-4"
             data-aos="fade-up"

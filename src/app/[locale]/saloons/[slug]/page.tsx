@@ -35,7 +35,7 @@ export default async function SaloonDetailPage({ params }: Props) {
     <section className="section-pad pt-28">
       <div className="container-forge">
         <div
-          className="relative aspect-[21/9] overflow-hidden mb-10 card-media"
+          className="relative aspect-[16/10] md:aspect-[21/9] overflow-hidden mb-10 card-media"
           data-aos="zoom-out"
           data-aos-duration="1000"
         >
@@ -45,11 +45,12 @@ export default async function SaloonDetailPage({ params }: Props) {
             fill
             className="object-cover"
             sizes="100vw"
+            quality={90}
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-bg via-transparent to-transparent" />
           <h1
-            className="absolute bottom-6 left-6 font-display text-6xl md:text-8xl"
+            className="absolute bottom-6 left-4 right-4 md:left-6 md:right-auto font-display text-5xl sm:text-6xl md:text-8xl"
             data-aos="fade-up"
             data-aos-delay="120"
           >

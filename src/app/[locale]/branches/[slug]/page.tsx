@@ -40,7 +40,7 @@ export default async function BranchDetailPage({ params }: Props) {
     <section className="section-pad pt-28">
       <div className="container-forge">
         <div
-          className="relative aspect-[21/9] overflow-hidden mb-10 card-media"
+          className="relative aspect-[16/10] md:aspect-[21/9] overflow-hidden mb-10 card-media"
           data-aos="zoom-out"
           data-aos-duration="1000"
         >
@@ -50,11 +50,12 @@ export default async function BranchDetailPage({ params }: Props) {
             fill
             className="object-cover"
             sizes="100vw"
+            quality={90}
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-bg via-transparent to-transparent" />
           <h1
-            className="absolute bottom-6 left-6 font-display text-6xl md:text-8xl"
+            className="absolute bottom-6 left-4 right-4 md:left-6 md:right-auto font-display text-5xl sm:text-6xl md:text-8xl"
             data-aos="fade-up"
             data-aos-delay="120"
           >
@@ -140,19 +141,20 @@ export default async function BranchDetailPage({ params }: Props) {
                   <Link
                     key={trainer.id}
                     href={`/trainers/${trainer.slug}`}
-                    className="card-forge group block"
+                    className="card-forge group block min-w-0"
                     data-aos="fade-up"
                     data-aos-delay={i * 70}
                   >
-                    <div className="relative aspect-[3/4]">
+                    <div className="relative aspect-[3/4] overflow-hidden">
                       <Image
                         src={trainer.image}
                         alt={trainer.name}
                         fill
+                        quality={95}
                         className="object-cover transition-transform duration-700 group-hover:scale-105"
-                        sizes="(max-width:768px) 100vw, 33vw"
+                        sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-bg via-transparent to-transparent" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-bg/90 via-bg/20 to-transparent" />
                     </div>
                     <div className="p-5 -mt-16 relative z-10">
                       <h3 className="font-display text-3xl group-hover:text-accent transition-colors">

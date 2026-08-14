@@ -125,6 +125,12 @@
     },
     "pricing": {
       "title": "Fiyatlar",
+      "subtitle": "Net liste: ad ve fiyat.",
+      "moreInfo": "Daha fazla",
+      "close": "Kapat"
+    },
+    "pricingOld": {
+      "title": "Üyelikler",
       "subtitle": "Ne kadar sert antrenman yapmak istediğinize uyan üyeliği seçin."
     },
     "shop": {
@@ -463,6 +469,33 @@
           "Özel programlama",
           "Sınırsız arkadaş getirme"
         ]
+      }
+    },
+    "priceList": {
+      "day-pass": {
+        "name": "Günlük giriş",
+        "description": "Bir antrenman günü için salon erişimi.",
+        "details": "Kapanışa kadar açık salonda antrenman — rack, platform, kardiyo ve dolap dahildir. Havlular danışmada. Yoğun saatlerde yer çabuk dolar; platform istiyorsanız erken gelin. Check-in yaptığınız gün geçerlidir."
+      },
+      "personal-training": {
+        "name": "Kişisel antrenman",
+        "description": "Antrenörle 60 dakikalık birebir seans.",
+        "details": "Antrenörle 60 dakika: ısınma, güç veya kondisyon bloğu ve soğuma. Program hedefinize göre kurulur — güç, yağ kaybı veya antrenmana dönüş. Danışmadan veya antrenörünüzle randevu alın. En az 12 saat önce iptal edin."
+      },
+      "group-class": {
+        "name": "Grup dersi",
+        "description": "Programdaki antrenör eşliğinde ders.",
+        "details": "Haftalık programdan antrenör eşliğinde ders — güç, cycle, dövüş veya kondisyon. Hazırlık için 10 dakika erken gelin. Drop-in bir derstir; üyeler uygulamadan yazar. Su ve salon ayakkabısı getirin."
+      },
+      "recovery-session": {
+        "name": "Toparlanma seansı",
+        "description": "Esneme, mobilite ve toparlanma alanı.",
+        "details": "Rehberli mobilite ve toparlanma alanı: esneme, nefes ve yumuşak doku araçları. Ağır antrenman veya uzun ders bloğundan sonraki gün iyidir. Seans yaklaşık 45 dakikadır. Alan yeniyse salondaki antrenöre sorun."
+      },
+      "nutrition-consult": {
+        "name": "Beslenme danışmanlığı",
+        "description": "Antrenmanınıza uygun beslenme planı.",
+        "details": "45 dakikalık görüşme: antrenman çevresinde beslenme, protein hedefi, öğün zamanı ve basit haftalık plan. Tipik bir yemek kaydınız varsa getirin. İlk plandan sonra takip randevuları ayrı alınır."
       }
     },
     "products": {

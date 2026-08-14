@@ -125,6 +125,12 @@
     },
     "pricing": {
       "title": "Qiymətlər",
+      "subtitle": "Aydın siyahı: ad və qiymət.",
+      "moreInfo": "Ətraflı",
+      "close": "Bağla"
+    },
+    "pricingOld": {
+      "title": "Üzvlük",
       "subtitle": "Nə qədər sərt məşq etmək istədiyinizə uyğun üzvlüyü seçin."
     },
     "shop": {
@@ -463,6 +469,33 @@
           "Fərdi proqramlaşma",
           "Limitsiz dost gətirmə"
         ]
+      }
+    },
+    "priceList": {
+      "day-pass": {
+        "name": "Günlük keçid",
+        "description": "Bir məşq günü üçün zal girişi.",
+        "details": "Bağlanışa qədər açıq zal — rack, platform, kardio və dolab girişi daxildir. Dəsmal masadadır. Pik saatlarda yer tez dolur, platform istəyirsinizsə tez gəlin. Yoxlandığınız gün üçün keçərlidir."
+      },
+      "personal-training": {
+        "name": "Şəxsi məşq",
+        "description": "Məşqçi ilə 60 dəqiqəlik fərdi seans.",
+        "details": "Məşqçi ilə 60 dəqiqə: isinmə, güc və ya kondisiya bloku, soyuma. Proqram məqsədinizə görə qurulur — güc, yağ itkisi və ya məşqə qayıdış. Masadan və ya məşqçinizlə yazılın. Ən azı 12 saat əvvəl ləğv edin."
+      },
+      "group-class": {
+        "name": "Qrup dərsi",
+        "description": "Cədvəldəki məşqçi rəhbərliyində dərs.",
+        "details": "Həftəlik cədvəldən məşqçi rəhbərliyində dərs — güc, cycle, döyüş və ya kondisiya. Hazırlıq üçün 10 dəqiqə tez gəlin. Drop-in bir dərsdir; üzvlər tətbiqdə yazılır. Su və zal ayaqqabısı gətirin."
+      },
+      "recovery-session": {
+        "name": "Bərpa seansı",
+        "description": "Stretch, hərəkətlilik və bərpa zonası.",
+        "details": "Rəhbərli hərəkətlilik və bərpa zonası: stretch, nəfəs və yumşaq toxuma alətləri. Ağır qaldırmadan və ya uzun dərs blokundan sonra yaxşıdır. Seans təxminən 45 dəqiqədir. Zona yenidirsə, zal məşqçisindən soruşun."
+      },
+      "nutrition-consult": {
+        "name": "Qidalanma konsultasiyası",
+        "description": "Məşqinizi dəstəkləyən qidalanma planı.",
+        "details": "45 dəqiqəlik konsultasiya: məşq ətrafında qidalanma, protein hədəfi, yemək vaxtı və sadə həftəlik plan. Tipik yemək qeydiniz varsa gətirin. İlk plandan sonra növbəti görüşlər ayrıca yazılır."
       }
     },
     "products": {

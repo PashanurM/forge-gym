@@ -35,17 +35,18 @@ export default async function BranchesPage({ params }: Props) {
               <Link
                 key={branch.id}
                 href={`/branches/${branch.slug}`}
-                className="card-forge group block"
+                className="card-forge group block min-w-0"
                 data-aos="fade-up"
                 data-aos-delay={i * 60}
               >
-                <div className="relative aspect-[16/10]">
+                <div className="relative aspect-[16/10] overflow-hidden">
                   <Image
                     src={branch.image}
                     alt={tBranches(`${branch.slug}.name`)}
                     fill
+                    quality={90}
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width:768px) 100vw, 33vw"
+                    sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
                   />
                 </div>
                 <div className="p-6">

@@ -33,17 +33,18 @@ export default async function ShopPage({ params }: Props) {
               <Link
                 key={product.id}
                 href={`/shop/${product.slug}`}
-                className="card-forge group block"
+                className="card-forge group block min-w-0"
                 data-aos="fade-up"
                 data-aos-delay={i * 50}
               >
-                <div className="relative aspect-square bg-surface">
+                <div className="relative aspect-square bg-surface overflow-hidden">
                   <Image
                     src={product.image}
                     alt={name}
                     fill
+                    quality={90}
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width:768px) 100vw, 30vw"
+                    sizes="(max-width:640px) 100vw, (max-width:1280px) 50vw, 33vw"
                   />
                 </div>
                 <div className="p-5">

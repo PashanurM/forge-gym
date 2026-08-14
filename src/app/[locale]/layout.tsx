@@ -28,7 +28,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <SetHtmlLang />
       <AppProviders>
         <Navbar />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 min-w-0 max-w-full overflow-x-clip">{children}</main>
         <Footer />
       </AppProviders>
     </NextIntlClientProvider>

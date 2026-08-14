@@ -41,10 +41,10 @@ export function VideoHero() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_20%,rgba(10,11,12,0.7)_100%)]" />
 
       <div className="relative z-10 flex min-h-[100svh] flex-col justify-end px-[clamp(1.25rem,4vw,4rem)] pb-16 pt-28 md:pb-24">
-        <p className="hero-brand font-display text-[clamp(4.5rem,14vw,11rem)] leading-[0.85] text-text">
+        <p className="hero-brand font-display text-[clamp(3.25rem,12vw,11rem)] leading-[0.85] text-text max-w-full">
           {tb("name")}
         </p>
-        <h1 className="hero-line mt-4 max-w-2xl font-display text-[clamp(1.8rem,4vw,3.2rem)] text-accent">
+        <h1 className="hero-line mt-4 max-w-2xl font-display text-[clamp(1.5rem,4.5vw,3.2rem)] text-accent">
           {t("heroHeadline")}
         </h1>
         <p className="hero-sub mt-3 max-w-md text-lg text-muted">{t("heroSub")}</p>

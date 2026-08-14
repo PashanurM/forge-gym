@@ -10,7 +10,7 @@ export const saloons: Saloon[] = [
     capacity: 40,
     features: ["Power racks", "Bumper plates", "Deadlift platforms", "Cable stations"],
     image:
-      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80",
+      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48",
   },
   {
     id: "s2",
@@ -21,7 +21,7 @@ export const saloons: Saloon[] = [
     capacity: 28,
     features: ["Smart bikes", "LED sync", "Heart-rate tracking", "Sound system"],
     image:
-      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&q=80",
+      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
   },
   {
     id: "s3",
@@ -32,7 +32,7 @@ export const saloons: Saloon[] = [
     capacity: 16,
     features: ["Foam rolling", "Stretch zones", "Cold plunge access", "Massage guns"],
     image:
-      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1200&q=80",
+      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f",
   },
   {
     id: "s4",
@@ -43,7 +43,7 @@ export const saloons: Saloon[] = [
     capacity: 22,
     features: ["Heavy bags", "Open mats", "Speed bags", "Mirror wall"],
     image:
-      "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=1200&q=80",
+      "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed",
   },
 ];
 

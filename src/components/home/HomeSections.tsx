@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { trainers } from "@/data/trainers";
 import { services } from "@/data/services";
 import { blogPosts } from "@/data/blog";
+import { isPageEnabled } from "@/lib/site";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 import { PinnedHalls } from "@/components/home/PinnedHalls";
@@ -22,38 +23,58 @@ export async function HomeSections() {
         <div className="container-forge">
           <SectionHeading title={t("coachesTitle")} subtitle={t("coachesSub")} />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {trainers.map((trainer, i) => (
-              <Link
-                key={trainer.id}
-                href={`/trainers/${trainer.slug}`}
-                className="card-forge group block"
-                data-aos="fade-up"
-                data-aos-delay={i * 80}
-              >
-                <div className="relative aspect-[3/4]">
-                  <Image
-                    src={trainer.image}
-                    alt={trainer.name}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width:768px) 100vw, 25vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-bg via-transparent to-transparent" />
-                  <div className="absolute bottom-0 p-5">
-                    <p className="font-display text-3xl">{trainer.name}</p>
-                    <p className="text-sm text-accent uppercase tracking-wider">
-                      {tTrainers(`${trainer.slug}.title`)}
-                    </p>
+            {trainers.map((trainer, i) => {
+              const card = (
+                <>
+                  <div className="relative aspect-[3/4] overflow-hidden">
+                    <Image
+                      src={trainer.image}
+                      alt={trainer.name}
+                      fill
+                      quality={95}
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                      sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-bg/90 via-bg/20 to-transparent" />
+                    <div className="absolute bottom-0 p-5">
+                      <p className="font-display text-3xl">{trainer.name}</p>
+                      <p className="text-sm text-accent uppercase tracking-wider">
+                        {tTrainers(`${trainer.slug}.title`)}
+                      </p>
+                    </div>
                   </div>
+                </>
+              );
+              const className = "card-forge group block min-w-0";
+              return isPageEnabled("trainers") ? (
+                <Link
+                  key={trainer.id}
+                  href={`/trainers/${trainer.slug}`}
+                  className={className}
+                  data-aos="fade-up"
+                  data-aos-delay={i * 80}
+                >
+                  {card}
+                </Link>
+              ) : (
+                <div
+                  key={trainer.id}
+                  className={className}
+                  data-aos="fade-up"
+                  data-aos-delay={i * 80}
+                >
+                  {card}
                 </div>
-              </Link>
-            ))}
+              );
+            })}
           </div>
-          <div className="mt-10" data-aos="fade-up">
-            <Button href="/trainers" variant="ghost">
-              {tc("allTrainers")}
-            </Button>
-          </div>
+          {isPageEnabled("trainers") ? (
+            <div className="mt-10" data-aos="fade-up">
+              <Button href="/trainers" variant="ghost">
+                {tc("allTrainers")}
+              </Button>
+            </div>
+          ) : null}
         </div>
       </section>
 
@@ -64,25 +85,42 @@ export async function HomeSections() {
           <div className="container-forge">
             <SectionHeading title={t("programsTitle")} subtitle={t("programsSub")} />
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {services.slice(0, 6).map((service, i) => (
-                <Link
-                  key={service.id}
-                  href="/services"
-                  className="card-glass p-7 md:p-8 group relative z-10"
-                  data-aos="fade-up"
-                  data-aos-delay={i * 50}
-                >
-                  <p className="text-xs uppercase tracking-[0.2em] text-accent">
-                    {tServices(`${service.slug}.category`)}
-                  </p>
-                  <h3 className="mt-3 font-display text-3xl group-hover:text-accent transition-colors">
-                    {tServices(`${service.slug}.name`)}
-                  </h3>
-                  <p className="mt-3 text-muted">
-                    {tServices(`${service.slug}.description`)}
-                  </p>
-                </Link>
-              ))}
+              {services.slice(0, 6).map((service, i) => {
+                const inner = (
+                  <>
+                    <p className="text-xs uppercase tracking-[0.2em] text-accent">
+                      {tServices(`${service.slug}.category`)}
+                    </p>
+                    <h3 className="mt-3 font-display text-3xl group-hover:text-accent transition-colors">
+                      {tServices(`${service.slug}.name`)}
+                    </h3>
+                    <p className="mt-3 text-muted">
+                      {tServices(`${service.slug}.description`)}
+                    </p>
+                  </>
+                );
+                const className = "card-glass p-7 md:p-8 group relative z-10";
+                return isPageEnabled("services") ? (
+                  <Link
+                    key={service.id}
+                    href="/services"
+                    className={className}
+                    data-aos="fade-up"
+                    data-aos-delay={i * 50}
+                  >
+                    {inner}
+                  </Link>
+                ) : (
+                  <div
+                    key={service.id}
+                    className={className}
+                    data-aos="fade-up"
+                    data-aos-delay={i * 50}
+                  >
+                    {inner}
+                  </div>
+                );
+              })}
             </div>
           </div>
         </section>
@@ -92,7 +130,7 @@ export async function HomeSections() {
         <section className="relative overflow-hidden section-pad">
           <div className="absolute inset-0">
             <Image
-              src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1600&q=80"
+              src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f"
               alt="Gym floor"
               fill
               className="object-cover opacity-30"
@@ -114,9 +152,11 @@ export async function HomeSections() {
             >
               {t("pricingSub")}
             </p>
-            <div className="mt-8" data-aos="fade-up" data-aos-delay="180">
-              <Button href="/pricing">{tc("viewPricing")}</Button>
-            </div>
+            {isPageEnabled("pricing") ? (
+              <div className="mt-8" data-aos="fade-up" data-aos-delay="180">
+                <Button href="/pricing">{tc("viewPricing")}</Button>
+              </div>
+            ) : null}
           </div>
         </section>
 
@@ -126,14 +166,8 @@ export async function HomeSections() {
             <div className="grid gap-6 md:grid-cols-3">
               {blogPosts.map((post, i) => {
                 const title = tBlog(`${post.slug}.title`);
-                return (
-                  <Link
-                    key={post.id}
-                    href={`/blog/${post.slug}`}
-                    className="card-forge group block relative z-10"
-                    data-aos="fade-up"
-                    data-aos-delay={i * 70}
-                  >
+                const inner = (
+                  <>
                     <div className="relative aspect-[16/10]">
                       <Image
                         src={post.image}
@@ -141,6 +175,7 @@ export async function HomeSections() {
                         fill
                         className="object-cover transition-transform duration-700 group-hover:scale-105"
                         sizes="(max-width:768px) 100vw, 33vw"
+                        quality={90}
                       />
                     </div>
                     <div className="p-5">
@@ -152,7 +187,28 @@ export async function HomeSections() {
                       </h3>
                       <p className="mt-2 text-muted">{tBlog(`${post.slug}.excerpt`)}</p>
                     </div>
+                  </>
+                );
+                const className = "card-forge group block relative z-10";
+                return isPageEnabled("blog") ? (
+                  <Link
+                    key={post.id}
+                    href={`/blog/${post.slug}`}
+                    className={className}
+                    data-aos="fade-up"
+                    data-aos-delay={i * 70}
+                  >
+                    {inner}
                   </Link>
+                ) : (
+                  <article
+                    key={post.id}
+                    className={className}
+                    data-aos="fade-up"
+                    data-aos-delay={i * 70}
+                  >
+                    {inner}
+                  </article>
                 );
               })}
             </div>

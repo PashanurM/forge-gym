@@ -1,5 +1,8 @@
 import type { Trainer } from "@/lib/types";
 
+/** Clean Unsplash photo URLs — width/quality come from the image loader. */
+const img = (id: string) => `https://images.unsplash.com/${id}`;
+
 export const trainers: Trainer[] = [
   {
     id: "t1",
@@ -8,8 +11,7 @@ export const trainers: Trainer[] = [
     title: "Strength Coach",
     bio: "Maya builds raw power with precise programming. Former competitive powerlifter turned coach who thrives on progressive overload and form mastery.",
     specialties: ["Powerlifting", "Hypertrophy", "Mobility"],
-    image:
-      "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+    image: img("photo-1594381898411-846e7d193883"),
     experienceYears: 8,
     rating: 4.9,
     branchSlug: "downtown",
@@ -26,8 +28,7 @@ export const trainers: Trainer[] = [
     title: "HIIT & Conditioning",
     bio: "Kai engineers high-intensity sessions that torch fat and build athletic endurance without burning you out.",
     specialties: ["HIIT", "Metabolic Conditioning", "Athletic Performance"],
-    image:
-      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+    image: img("photo-1571019614242-c5c5dee9f50b"),
     experienceYears: 6,
     rating: 4.8,
     branchSlug: "downtown",
@@ -44,8 +45,7 @@ export const trainers: Trainer[] = [
     title: "Mobility & Recovery",
     bio: "Elena restores range and resilience. Her sessions blend mobility, breathwork, and smart recovery protocols.",
     specialties: ["Mobility", "Recovery", "Corrective Exercise"],
-    image:
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
+    image: img("photo-1518611012118-696072aa579a"),
     experienceYears: 7,
     rating: 4.95,
     branchSlug: "riverside",
@@ -62,8 +62,7 @@ export const trainers: Trainer[] = [
     title: "Boxing & Functional",
     bio: "Dante brings fight-gym energy to every session—footwork, power, and functional strength that transfers to real life.",
     specialties: ["Boxing", "Functional Strength", "Core"],
-    image:
-      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
+    image: img("photo-1567013127542-490d757e51fc"),
     experienceYears: 10,
     rating: 4.85,
     branchSlug: "westend",
